@@ -52,7 +52,7 @@
       <div v-for="project in filteredProjects" :key="project.id" class="single-project">
         <h3 class="project-title ">{{ project.title }}</h3>
         <div class="project-tags"> <span v-for="tag in project.tags" class="single-tag rainbow">{{ tag }}</span> </div>
-        <div class="project-link"> <RouterLink :to="project.route"> See project </RouterLink></div>
+        <div class="project-link"> <RouterLink :to="'/works'+project.route"> See project </RouterLink></div>
       </div>
     </div>
   </div>
