@@ -36,7 +36,7 @@ dynamicRouter= Object.assign({}, defaultRouter)
 
 for(let project of projectsData) {
   dynamicRouter.routes.push({
-      path:'/works/'+project.route,
+      path:'/works'+project.route,
       name:project.title,
       component: () => import('../views/SingleProjectView.vue')
   })
