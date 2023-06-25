@@ -12,5 +12,5 @@ app.use(router)
 
 app.mount('#app')
 
-//inject()for analytics
+//inject() is for analytics
 inject();

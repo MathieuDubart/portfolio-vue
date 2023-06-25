@@ -48,7 +48,7 @@
       <option v-for="tag in tags" :value="tag">{{ tag }}</option>
     </select>
 
-    <div class="works-container grid grid-cols-3">
+    <div class="works-container grid grid-cols-3 xs:grid-cols-1">
       <div v-for="project in filteredProjects" :key="project.id" class="single-project">
         <h3 class="project-title ">{{ project.title }}</h3>
         <div class="project-tags"> <span v-for="tag in project.tags" class="single-tag rainbow">{{ tag }}</span> </div>
