@@ -1,0 +1,92 @@
+/* nav a.router-link-exact-active {
+  color: var(--color-text);
+}
+
+nav a.router-link-exact-active:hover {
+  background-color: transparent;
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  padding: 2rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+}
+
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 2.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0 1rem;
+  
+}
+
+nav a:first-of-type {
+  border: 0;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2.6rem;
+  top: -10px;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    padding-right: calc(var(--section-gap) / 2);
+  }
+
+  .logo {
+    margin: 0 2rem 0 0;
+  }
+
+  header .wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  /* nav {
+    text-align: left;
+    margin-left: -1rem;
+    font-size: 1rem;
+
+    padding: 1rem 0;
+    margin-top: 1rem;
+  } */
+  
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px){
+  .nav-container {
+    margin-bottom: 1.5em;
+  }
+}

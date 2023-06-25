@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "route":"/monsieurbouillon",
+    "title": "Monsieur Bouillon",
+    "client": "Groupe Chevrier",
+    "href":"https://monsieurbouillon.ch/fr/",
+    "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
+    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "tags":["Web development"],
+    "technos":["SCSS","JS","PHP","WORDPRESS"]
+  },
+  {
+    "id": 2,
+    "route":"/patio-restaurant",
+    "title": "Patio Restaurant",
+    "client": "Groupe Chevrier",
+    "href":"https://monsieurbouillon.ch/fr/",
+    "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
+    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "tags":["Web development"],
+    "technos":["SCSS","JS","PHP","WORDPRESS"]
+  },
+  {
+    "id": 3,
+    "route":"/avalanches-website",
+    "title": "Avalanches website",
+    "client":"Groupe Chevrier",
+    "href":"https://lepatio-restaurant.ch/fr/",
+    "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
+    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "tags":["Web development", "Web design"],
+    "technos":["SCSS","JS","PHP","WORDPRESS"]
+  },
+  {
+    "id": 4,
+    "route":"/avalanches-photoshoot",
+    "title": "Avalanches photoshoot",
+    "client":"Groupe Chevrier",
+    "href":"https://lepatio-restaurant.ch/fr/",
+    "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
+    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "tags":["Photography"],
+    "technos":["Nikon Z6","200-500mm","f2.6 - f5.4"]
+  }
+]
