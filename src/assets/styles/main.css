@@ -61,10 +61,18 @@ header {
   border-radius: 8px;
 }
 
-.nav-container nav.navbar {
-  padding: 1em;
-  font-size: 12px;
+.nav-container .navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-container .navbar .nav-section {
+  width: calc(100%/3);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .introduction {

@@ -21,11 +21,16 @@ import HelloWorld from './components/HelloWorld.vue'
    <Transition><RouterView v-if="show"/></Transition>
   
   <div class="nav-container">
-    <nav clas="navbar">
-      <RouterLink to="/" class="nav-link">Home</RouterLink>
-      <RouterLink to="/works" class="nav-link">Works</RouterLink>
-      <!-- <RouterLink to="/about" class="nav-link">About</RouterLink> -->
-      <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
+    <nav class="navbar">
+      <div class="nav-section">
+        <RouterLink to="/" class="nav-link">Home</RouterLink>
+      </div>
+      <div class="nav-section">
+        <RouterLink to="/works" class="nav-link">Works</RouterLink>
+      </div>
+      <div class="nav-section">
+        <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
+      </div>
     </nav>
   </div>
 </template>
