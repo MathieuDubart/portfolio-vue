@@ -177,3 +177,14 @@ a.nav-link:active {
     place-items: center;
   }
 }
+
+@media (max-width: 760px) {
+  .works-container {
+    justify-content: center;
+  }
+
+  .single-project {
+    padding: 1.25em;
+    margin-right: 0;
+  }
+}
