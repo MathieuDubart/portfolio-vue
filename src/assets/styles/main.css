@@ -1,0 +1,247 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-md-portfolio {
+  min-height: 500px;
+}
+a {
+  font-family: 'Inter', serif;
+  color: var(--vt-c-black);
+  text-decoration: none;
+}
+
+.title {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: 'Inter', sans-serif;
+}
+
+.contact {
+  width: 100%;
+}
+.container-get-in-touch {
+  width: 100%;
+  display: flex;
+}
+
+.get-in-touch {
+  font-family: 'Inter', sans-serif;
+  width: fit-content;
+  text-align: left;
+}
+.get-in-touch > h3.subtitle::after {
+  content:"→";
+  position: relative;
+  right:-6px;
+  top: 2px;
+  transition: transform 0.35s ease-out;
+}
+.get-in-touch:hover > h3.subtitle::after {
+  transform: translateX(8px);
+}
+
+header {
+  line-height: 1.5;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-container{
+  color: var(--color-text);
+  background: var(--color-background-soft);
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 5.5em;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em .5em;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.nav-container .navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-container .navbar .nav-section {
+  width: calc(100%/3);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.introduction svg.home-logo {
+  width: 100%;
+  margin-bottom: 3rem;
+  fill:#1D1D1B;
+}
+
+.rainbow {
+  background: -webkit-linear-gradient(0deg, rgb(86, 131, 255) -10%, rgb(43,220,90) 110%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 38px;
+  transform: scaleX(0);
+  height: 2px;
+  left: 16px;
+  bottom: 0px;
+  background: -webkit-linear-gradient(0deg, rgb(86, 131, 255) -10%, rgb(43,220,90) 110%);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+a.nav-link:hover{
+  color: var(--vt-c-black);
+}
+
+a.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+a.nav-link:active {
+  transform: scaleX(1);
+  transform-origin: bottom left; 
+}
+
+.works {
+  width: 100%;
+}
+
+.filters-container {
+  display: inline-flex;
+  margin-bottom: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters-container .subtitle {
+  margin-right: 0.6em;
+}
+
+.filters-select {
+  padding: 0.25em;
+  background-color: var(--color-background-soft);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+}
+.works-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;  
+}
+
+.single-project {
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  margin: 0 1em 1em 0;
+  border-radius: var(--border-radius-sm);
+  transition: ease-in-out 1s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.single-project:hover{
+  transition: ease-in-out .7s;
+
+}
+
+.see-it-live {
+  margin-bottom: 3em;
+}
+
+.see-it-live::after{
+  content: "→";
+  transition: ease-in-out 0.7s;
+  margin-left: 0.2em;
+}
+
+.see-it-live:hover::after{
+  content: "→";
+  transition: ease-in-out 0.7s;
+  margin-left: 0.4em;
+}
+
+.project-tags span.single-tag {
+  margin-right: 0.4em;
+  font-size: 0.85em;
+}
+
+.project-tags {
+  margin-bottom:.5em;
+}
+.project-link::after{
+  content: "→";
+  transition: ease-in-out 0.7s;
+  margin-left: 0.2em;
+}
+.single-project:hover .project-link::after{
+  content: "→";
+  transition: ease-in-out 0.7s;
+  margin-left: 0.4em;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: var(--vt-c-text-dark-2);
+  }
+  .introduction svg.home-logo path {
+    fill: var(--vt-c-text-dark-2);
+  }
+  a.nav-link, a.nav-link:active, a.nav-link:hover {
+    color: var(--vt-c-text-dark-2);
+  }
+  .single-project {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
+
+@media (max-width: 760px) {
+
+  .works .title {
+    margin-top: 1em;
+  }
+  .contact .title{
+  margin-top: 1em;
+  }
+  .works-container {
+    justify-content: center;
+    margin-bottom: 4em;
+  }
+
+  .single-project {
+    padding: 1.25em;
+    margin-right: 0;
+    width: 326px;
+  }
+}
