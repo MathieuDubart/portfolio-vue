@@ -126,7 +126,7 @@ a.nav-link:active {
 
 .filters-container {
   display: inline-flex;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   justify-content: center;
   align-items: center;
 }
@@ -196,6 +196,7 @@ a.nav-link:active {
   }
   .works-container {
     justify-content: center;
+    margin-bottom: 4em;
   }
 
   .single-project {
