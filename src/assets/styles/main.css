@@ -202,5 +202,6 @@ a.nav-link:active {
   .single-project {
     padding: 1.25em;
     margin-right: 0;
+    width: 326px;
   }
 }
