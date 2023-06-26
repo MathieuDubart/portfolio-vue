@@ -124,8 +124,19 @@ a.nav-link:active {
   width: 100%;
 }
 
-.works select {
+.filters-container {
+  display: inline-flex;
   margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters-container .subtitle {
+  margin-right: 0.6em;
+}
+
+.filters-select {
+  padding: 0.25em;
 }
 .works-container {
   display: flex;
@@ -179,6 +190,10 @@ a.nav-link:active {
 }
 
 @media (max-width: 760px) {
+
+  .works .title {
+    margin-top: 1em;
+  }
   .works-container {
     justify-content: center;
   }

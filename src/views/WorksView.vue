@@ -42,11 +42,14 @@
     <h1 class="title"> Discover my works </h1>
 
     
+    <div class="filters-container">
+      <h3 class="subtitle">Filter by</h3>
+      <select v-model="selectedTag" class="filters-select">
+        <option value="">All</option>
+        <option v-for="tag in tags" :value="tag">{{ tag }}</option>
+      </select>
+    </div>
 
-    <select v-model="selectedTag">
-      <option value="">All</option>
-      <option v-for="tag in tags" :value="tag">{{ tag }}</option>
-    </select>
 
     <div class="works-container grid md:grid-cols-3 sm:grid-cols-1">
       <div v-for="project in filteredProjects" :key="project.id" class="single-project">
