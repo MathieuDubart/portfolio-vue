@@ -48,7 +48,7 @@ header {
 
 .nav-container{
   color: var(--color-text);
-  background: var(--color-background);
+  background: var(--color-background-soft);
   position: fixed;
   bottom: 0;
   margin-bottom: 5.5em;
@@ -137,6 +137,9 @@ a.nav-link:active {
 
 .filters-select {
   padding: 0.25em;
+  background-color: var(--color-background-soft);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
 }
 .works-container {
   display: flex;
@@ -179,6 +182,12 @@ a.nav-link:active {
   }
   a.nav-link, a.nav-link:active, a.nav-link:hover {
     color: var(--vt-c-text-dark-2);
+  }
+  .filters-select {
+    color: var(--vt-c-black);
+  }
+  .single-project {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;;
   }
 }
 
