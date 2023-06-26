@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.app-md-portfolio {
+  min-height: 500px;
+}
 a {
   font-family: 'Inter', serif;
   color: var(--vt-c-black);
@@ -18,6 +21,9 @@ a {
   font-family: 'Inter', sans-serif;
 }
 
+.contact {
+  width: 100%;
+}
 .container-get-in-touch {
   width: 100%;
   display: flex;
