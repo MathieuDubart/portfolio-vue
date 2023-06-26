@@ -39,7 +39,7 @@
 
 <template>
   <div class="works">
-    <h1> Discover my works </h1>
+    <h1 class="title"> Discover my works </h1>
 
     
 

@@ -36,6 +36,9 @@
 
   --color-heading: var(--vt-c-text-light-1);
   --color-text: var(--vt-c-text-light-1);
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-xl: 24px;
 
   --section-gap: 160px;
 }
