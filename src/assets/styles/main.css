@@ -206,6 +206,9 @@ a.nav-link:active {
   .works .title {
     margin-top: 1em;
   }
+  .contact .title{
+  margin-top: 1em;
+  }
   .works-container {
     justify-content: center;
     margin-bottom: 4em;
