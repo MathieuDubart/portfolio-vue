@@ -286,6 +286,9 @@ h2.client {
 }
 
 @media (max-width: 760px) {
+  body {
+    justify-content: center;
+  }
   .nav-container {
     width: 100%;
     margin-bottom: 0em;
