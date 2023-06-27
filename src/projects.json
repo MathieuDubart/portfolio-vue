@@ -1,12 +1,24 @@
 [
   {
+    "id": 0,
+    "route":"/owl-radar",
+    "title": "Owl",
+    "client": "School project",
+    "cta_label": "Show GitHub repo",
+    "href":"https://github.com/MathieuDubart/reversing_radar",
+    "intro":" <span class='bold'> Owl </span> is a reversing radar. <span class='bold'>Lorem ipsum</span>, dolor sit amet.",
+    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "tags":["IoT"],
+    "technos":["Python", "Micropython", "Bluetooth"]
+  },
+  {
     "id": 1,
     "route":"/monsieurbouillon",
     "title": "Monsieur Bouillon",
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://monsieurbouillon.ch/fr/",
-    "intro":" <span class='rainbow'> Monsieur Bouillon </span> est un site réalisé pour le groupe Chevrier, groupe Suisse détenant plusieurs restaurants.",
+    "intro":" <span class='bold'> Monsieur Bouillon </span> is a website realised for <span class='bold'>groupe Chevrier</span>, groupe Suisse détenant plusieurs restaurants.",
     "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
     "tags":["Web development"],
     "technos":["SCSS","JS","PHP","WORDPRESS"]
@@ -32,23 +44,11 @@
     "href":"https://lepatio-restaurant.ch/fr/",
     "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
     "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
-    "tags":["Web development", "Web design"],
-    "technos":["SCSS","JS","PHP","WORDPRESS"]
+    "tags":["Photography"],
+    "technos":["EOD 5DII","Canon EF24-70mm", "f2.8"]
   },
   {
     "id": 4,
-    "route":"/avalanches-website",
-    "title": "Avalanches website",
-    "client":"Groupe Chevrier",
-    "cta_label": "See it live",
-    "href":"https://lepatio-restaurant.ch/fr/",
-    "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
-    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
-    "tags":["Web development", "Web design"],
-    "technos":["SCSS","JS","PHP","WORDPRESS"]
-  },
-  {
-    "id": 5,
     "route":"/avalanches-photoshoot",
     "title": "Avalanches photoshoot",
     "client":"Groupe Chevrier",
@@ -57,6 +57,18 @@
     "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
     "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
     "tags":["Photography"],
-    "technos":["Nikon Z6","200-500mm","f2.6 - f5.4"]
+    "technos":["Nikon Z6","200-500mm","f2.8 - f5.6"]
+  },
+  {
+    "id": 5,
+    "route":"/l-amour",
+    "title": "L'Amour",
+    "client":"Personnal project",
+    "cta_label": "Show on Instagram",
+    "href":"https://lepatio-restaurant.ch/fr/",
+    "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
+    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "tags":["Photography"],
+    "technos":["EOD 5DII","Canon EF24-70mm", "f2.8"]
   }
 ]

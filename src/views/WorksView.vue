@@ -51,7 +51,7 @@
     </div>
 
 
-    <div class="works-container grid md:grid-cols-3 sm:grid-cols-1">
+    <div class="works-container grid md:grid-cols-3 sm:grid-cols-1" data-aos="fade-up" data-aos-duration="1000">
       <div v-for="project in filteredProjects" :key="project.id" class="single-project">
         <RouterLink :to="'/works'+project.route">
           <h3 class="project-title ">{{ project.title }}</h3>

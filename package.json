@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.0.1",
+    "aos": "^2.3.4",
     "vue": "^3.3.4",
     "vue-router": "^4.2.2"
   },
