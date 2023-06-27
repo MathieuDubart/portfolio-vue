@@ -295,8 +295,6 @@ h2.client {
     border: none;
     border-top: 1px solid var(--color-border);
     border-radius: 8px 8px 0 0;
-    position: absolute;
-    bottom: 0;
   }
   .works .title {
     margin-top: 1em;
