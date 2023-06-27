@@ -4,12 +4,6 @@
 @tailwind utilities;
 
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .app-md-portfolio {
   min-height: 500px;
 }
@@ -289,13 +283,13 @@ h2.client {
   body {
     justify-content: flex-start;
   }
-  /* .nav-container {
+  .nav-container {
     width: 100%;
     margin-bottom: 0em;
     border: none;
     border-top: 1px solid var(--color-border);
     border-radius: 8px 8px 0 0;
-  } */
+  }
   .works .title {
     margin-top: 1em;
   }
