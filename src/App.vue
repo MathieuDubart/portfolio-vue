@@ -27,7 +27,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="nav-section">
         <RouterLink to="/works" class="nav-link">(Works)</RouterLink>
       </div>
-      <div class="nav-section">
+      <div class="nav-section contact-link">
         <RouterLink to="/contact" class="nav-link">(Contact)</RouterLink>
       </div>
     </nav>

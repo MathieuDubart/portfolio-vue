@@ -45,14 +45,13 @@ h2{
 .get-in-touch .subtitle::after {
   content: "→";
   transition: ease-in-out 0.5s;
-  margin-left: 0.2em;
   background: var(--color-text);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .get-in-touch:hover .subtitle::after {
   transition: ease-in-out 0.5s;
-  margin-left: 0.6em;
+  margin-left: 0.2em;
 }
 
 header {
@@ -91,6 +90,10 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.contact-link {
+  margin-right: 7px;
 }
 
 .introduction {
@@ -179,30 +182,6 @@ a.nav-link:active {
 
 }
 
-.see-it-live {
-  margin-bottom: 3em;
-  max-width: 180px;
-}
-
-.live-link {
-  font-weight: 700;
-}
-
-.see-it-live::after{
-  content: "→";
-  transition: ease-in-out 0.5s;
-  margin-left: 0.2em;
-  background: var(--color-text);
-  font-weight: 700;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.see-it-live:hover::after{
-  transition: ease-in-out 0.5s;
-  margin-left: 0.4em;
-}
-
 .project-tags span.single-tag {
   margin-right: 0.4em;
   font-size: 0.85em;
@@ -237,6 +216,31 @@ h2.client {
 .for-subtitle {
   font-size: 1rem;
 }
+
+.see-it-live {
+  margin-bottom: 3em;
+  max-width: 180px;
+}
+
+.live-link {
+  font-weight: 700;
+}
+
+.see-it-live::after{
+  content: "→";
+  transition: ease-in-out 0.5s;
+  margin-left: 0.2em;
+  background: var(--color-text);
+  font-weight: 700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.see-it-live:hover::after{
+  transition: ease-in-out 0.5s;
+  margin-left: 0.4em;
+}
+
 @media (prefers-color-scheme: dark) {
   a {
     color: var(--vt-c-text-dark-2);
@@ -258,12 +262,25 @@ h2.client {
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-container {
+    margin-bottom: 3.5em;
   }
 }
 
 @media (max-width: 760px) {
 
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #portfolio-md {
+    justify-content: center;
+  }
   .works .title {
     margin-top: 1em;
   }
