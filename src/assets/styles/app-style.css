@@ -88,9 +88,3 @@ h3 {
     align-items: center;
   }
 }
-
-@media (max-width: 768px){
-  .nav-container {
-    margin-bottom: 1.5em;
-  }
-}
