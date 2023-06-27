@@ -34,15 +34,21 @@ a {
   width: fit-content;
   text-align: left;
 }
-.get-in-touch > h3.subtitle::after {
-  content:"→";
-  position: relative;
-  right:-6px;
-  top: 2px;
-  transition: transform 0.35s ease-out;
+.project-tags h3.subtitle {
+  width: fit-content;
+  margin-bottom: 3em;
 }
-.get-in-touch:hover > h3.subtitle::after {
-  transform: translateX(8px);
+.get-in-touch .subtitle::after {
+  content: "→";
+  transition: ease-in-out 0.5s;
+  margin-left: 0.2em;
+  background: var(--color-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.get-in-touch:hover .subtitle::after {
+  transition: ease-in-out 0.5s;
+  margin-left: 0.6em;
 }
 
 header {
@@ -93,10 +99,8 @@ header {
   fill:#1D1D1B;
 }
 
-.rainbow {
-  background: -webkit-linear-gradient(0deg, rgb(86, 131, 255) -10%, rgb(43,220,90) 110%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.light-grey {
+  color: var(--vt-c-text-light-2);
 }
 
 a.nav-link::after {
@@ -107,7 +111,7 @@ a.nav-link::after {
   height: 2px;
   left: 16px;
   bottom: 0px;
-  background: -webkit-linear-gradient(0deg, rgb(86, 131, 255) -10%, rgb(43,220,90) 110%);
+  background: -webkit-linear-gradient(0deg, rgb(96, 137, 248) -10%, rgb(43,220,90) 110%);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -165,23 +169,31 @@ a.nav-link:active {
 }
 
 .single-project:hover{
-  transition: ease-in-out .7s;
+  transition: ease-in-out .5s;
 
 }
 
 .see-it-live {
   margin-bottom: 3em;
+  max-width: 100px;
+}
+
+.live-link {
+  font-weight: 700;
 }
 
 .see-it-live::after{
   content: "→";
-  transition: ease-in-out 0.7s;
+  transition: ease-in-out 0.5s;
   margin-left: 0.2em;
+  background: var(--color-text);
+  font-weight: 700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .see-it-live:hover::after{
-  content: "→";
-  transition: ease-in-out 0.7s;
+  transition: ease-in-out 0.5s;
   margin-left: 0.4em;
 }
 
@@ -193,14 +205,22 @@ a.nav-link:active {
 .project-tags {
   margin-bottom:.5em;
 }
+
+.project-link {
+  font-weight: 700;
+}
+
 .project-link::after{
   content: "→";
-  transition: ease-in-out 0.7s;
+  transition: ease-in-out 0.5s;
   margin-left: 0.2em;
+  font-weight: 700;
+  background: var(--color-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .single-project:hover .project-link::after{
-  content: "→";
-  transition: ease-in-out 0.7s;
+  transition: ease-in-out 0.5s;
   margin-left: 0.4em;
 }
 
@@ -209,13 +229,16 @@ a.nav-link:active {
     color: var(--vt-c-text-dark-2);
   }
   .introduction svg.home-logo path {
-    fill: var(--vt-c-text-dark-2);
+    fill: var(--vt-c-text-dark-1);
   }
   a.nav-link, a.nav-link:active, a.nav-link:hover {
-    color: var(--vt-c-text-dark-2);
+    color: var(--vt-c-text-dark-1);
   }
   .single-project {
     box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;;
+  }
+  .light-grey {
+    color: var(--vt-c-text-dark-2);
   }
 }
 
