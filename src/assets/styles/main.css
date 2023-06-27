@@ -7,7 +7,7 @@
 body {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .app-md-portfolio {
@@ -287,6 +287,10 @@ h2.client {
 
 @media (max-width: 760px) {
 
+  body {
+    max-height: 100vh;
+  }
+
   .nav-container {
     width: 100%;
     margin-bottom: 0em;
@@ -303,12 +307,6 @@ h2.client {
   .works-container {
     justify-content: center;
     margin-bottom: 4em;
-  }
-
-  .single-project {
-    padding: 1.25em;
-    margin-right: 0;
-    width: 326px;
   }
 
 }
