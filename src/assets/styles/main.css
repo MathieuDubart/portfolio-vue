@@ -287,7 +287,7 @@ h2.client {
 
 @media (max-width: 760px) {
   body {
-    justify-content: center;
+    justify-content: flex-start;
   }
   .nav-container {
     width: 100%;
