@@ -124,6 +124,12 @@ header {
   fill:#1D1D1B;
 }
 
+.rainbow {
+  background: -webkit-linear-gradient(0deg, rgb(96, 137, 248) -10%, rgb(43,220,90) 110%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .light-grey {
   color: var(--vt-c-text-light-2);
 }
