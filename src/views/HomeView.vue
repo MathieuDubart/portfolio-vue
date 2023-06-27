@@ -3,7 +3,7 @@ import Introduction from '../components/Introduction.vue'
 </script>
 
 <template>
-  <main>
+  <div class="homeview">
     <Introduction/>
-  </main>
+  </div>
 </template>

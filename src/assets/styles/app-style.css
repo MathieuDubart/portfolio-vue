@@ -9,7 +9,7 @@ nav a.router-link-exact-active:hover {
 @tailwind components;
 @tailwind utilities;
 
-#app {
+#portfolio-md {
   padding: 2rem;
   display:flex;
   flex-direction: column;

@@ -10,7 +10,7 @@ const app = createApp(App)
 
 app.use(router)
 
-app.mount('#app')
+app.mount('#portfolio-md')
 
 //inject() is for analytics
 inject();
