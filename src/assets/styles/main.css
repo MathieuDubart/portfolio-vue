@@ -3,9 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .app-md-portfolio {
   min-height: 500px;
 }
+
 a {
   font-family: 'Inter', serif;
   color: var(--vt-c-black);
@@ -33,7 +41,7 @@ h2{
   display: flex;
 }
 
-.get-in-touch {
+.get-in-touch, .discover-work {
   font-family: 'Inter', sans-serif;
   width: fit-content;
   text-align: left;
@@ -42,7 +50,7 @@ h2{
   width: fit-content;
   margin-bottom: 3em;
 }
-.get-in-touch .subtitle::after {
+.get-in-touch .subtitle::after, .discover-work .subtitle::after{
   content: "→";
   transition: ease-in-out 0.5s;
   background: var(--color-text);
@@ -54,6 +62,14 @@ h2{
   margin-left: 0.2em;
 }
 
+.discover-work .subtitle::after {
+  margin-left: 0.2em;
+}
+
+.discover-work:hover .subtitle::after {
+  transition: ease-in-out 0.5s;
+  margin-left: 0.4em;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -260,11 +276,6 @@ h2.client {
 }
 
 @media (min-width: 1024px) {
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
   .nav-container {
     margin-bottom: 3.5em;
@@ -273,14 +284,6 @@ h2.client {
 
 @media (max-width: 760px) {
 
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #portfolio-md {
-    justify-content: center;
-  }
   .works .title {
     margin-top: 1em;
   }
