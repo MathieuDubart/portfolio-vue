@@ -17,6 +17,10 @@ a {
   font-weight: 700;
 }
 
+h2{
+  font-family: 'Libre Baskerville', serif;
+}
+
 .subtitle {
   font-family: 'Inter', sans-serif;
 }
@@ -57,7 +61,9 @@ header {
   display: flex;
   flex-direction: column;
 }
-
+.header-container {
+  width: 100%;
+}
 .nav-container{
   color: var(--color-text);
   background: var(--color-background-soft);
@@ -224,6 +230,13 @@ a.nav-link:active {
   margin-left: 0.4em;
 }
 
+h2.client {
+  margin-bottom: .6em;
+}
+
+.for-subtitle {
+  font-size: 1rem;
+}
 @media (prefers-color-scheme: dark) {
   a {
     color: var(--vt-c-text-dark-2);

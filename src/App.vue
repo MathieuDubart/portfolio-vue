@@ -22,13 +22,13 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="nav-container">
     <nav class="navbar">
       <div class="nav-section">
-        <RouterLink to="/" class="nav-link">Home</RouterLink>
+        <RouterLink to="/" class="nav-link">(Home)</RouterLink>
       </div>
       <div class="nav-section">
-        <RouterLink to="/works" class="nav-link">Works</RouterLink>
+        <RouterLink to="/works" class="nav-link">(Works)</RouterLink>
       </div>
       <div class="nav-section">
-        <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
+        <RouterLink to="/contact" class="nav-link">(Contact)</RouterLink>
       </div>
     </nav>
   </div>

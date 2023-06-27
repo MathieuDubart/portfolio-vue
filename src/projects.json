@@ -6,7 +6,7 @@
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://monsieurbouillon.ch/fr/",
-    "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
+    "intro":"Monsieur Bouillon est un site réalisé pour le groupe Chevrier, groupe Suisse détenant plusieurs restaurants.",
     "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
     "tags":["Web development"],
     "technos":["SCSS","JS","PHP","WORDPRESS"]
