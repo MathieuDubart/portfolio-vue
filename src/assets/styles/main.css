@@ -298,7 +298,7 @@ h2.client {
 
 }
 
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   body {
     display: flex;
     justify-content: center;
