@@ -327,4 +327,16 @@ h2.client {
     justify-content: center;
     margin-bottom: 4em;
   }
+
+  .single-project {
+    min-width: 350px;
+    margin: 0 0 1em 0;
+  }
+}
+
+
+@media (max-width: 280px) {
+  .single-project {
+    width: 250px;
+  }
 }
