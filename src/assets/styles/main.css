@@ -303,6 +303,7 @@ h2.client {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    overflow: hidden;
   }
 
   .nav-container {
