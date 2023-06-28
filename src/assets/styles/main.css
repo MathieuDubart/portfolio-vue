@@ -290,7 +290,6 @@ h2.client {
 @media (max-width: 760px) {
 
   .homeview {
-    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,7 +301,10 @@ h2.client {
   body {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+  }
+
+  body:has(.homeview) {
     overflow: hidden;
   }
 
