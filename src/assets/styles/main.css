@@ -306,6 +306,7 @@ h2.client {
 
   body:has(.homeview) {
     overflow: hidden;
+    justify-content: flex-start;
   }
 
   .nav-container {
@@ -335,8 +336,20 @@ h2.client {
 }
 
 
-@media (max-width: 280px) {
+@media (max-width: 380px) {
   .single-project {
-    width: 250px;
+    min-width: 260px;
+  }
+}
+
+@media (max-width: 717px) and (max-height: 512px) {
+  .nav-container {
+    width: 100%;
+    margin-bottom: 0;
+    border: none;
+    border-top: 1px solid var(--color-border);
+    border-radius: 8px 8px 0 0;
+    height: 200px;
+    bottom: -135px;
   }
 }
