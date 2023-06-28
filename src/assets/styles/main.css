@@ -6,7 +6,7 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .app-md-portfolio {
@@ -179,6 +179,7 @@ a.nav-link:active {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-sm);
 }
+
 .works-container {
   display: flex;
   flex-direction: row;
@@ -191,7 +192,7 @@ a.nav-link:active {
   padding: 1rem;
   border: 1px solid var(--color-border);
   max-width: 100%;
-  margin-bottom: 1em;
+  margin: 0 1em 1em 0;
   width: calc(100% - 1em);
   border-radius: var(--border-radius-sm);
   transition: ease-in-out 1s;
@@ -287,6 +288,13 @@ h2.client {
 }
 
 @media (max-width: 760px) {
+
+  .homeview {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .nav-container {
     width: 100%;
