@@ -82,7 +82,7 @@ header {
   color: var(--color-text);
   background: var(--color-background-soft);
   position: fixed;
-  bottom: -130px;
+  bottom: -135px;
   margin-bottom: 5.5em;
   width: auto;
   display: flex;
