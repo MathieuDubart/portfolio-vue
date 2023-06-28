@@ -6,8 +6,8 @@
     <h2 class="title">Or see more works</h2>
     <div class="networks-container">
       <a href="https://instagram.com/mathieudbrt" target="_blank" class="links">(Instagram)</a>
-      <a href="https://instagram.com/mathieudbrt" target="_blank" class="links">(GitHub)</a>
-      <a href="https://instagram.com/mathieudbrt" target="_blank" class="links">(Linkedin)</a>
+      <a href="https://github.com/mathieudubart" target="_blank" class="links">(GitHub)</a>
+      <a href="https://www.linkedin.com/in/mathieu-dubart" target="_blank" class="links">(Linkedin)</a>
     </div>
   </div>
 </template>
