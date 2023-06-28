@@ -82,7 +82,7 @@ header {
   color: var(--color-text);
   background: var(--color-background-soft);
   position: fixed;
-  bottom: -45px;
+  bottom: -145px;
   margin-bottom: 5.5em;
   width: auto;
   display: flex;
@@ -91,7 +91,7 @@ header {
   padding: 1em .5em;
   border: 1px solid var(--color-border);
   border-radius: 8px;
-  height: 100px;
+  height: 200px;
 }
 
 .nav-container .navbar {
