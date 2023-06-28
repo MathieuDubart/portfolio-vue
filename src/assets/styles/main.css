@@ -318,6 +318,9 @@ h2.client {
     height: 200px;
     bottom: -135px;
   }
+  .works {
+    min-height: 1060px;
+  }
   .works .title {
     margin-top: 1em;
   }
