@@ -291,7 +291,7 @@ h2.client {
 @media (max-width: 760px) {
 
   .homeview {
-    height: 90vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
