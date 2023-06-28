@@ -190,8 +190,9 @@ a.nav-link:active {
 .single-project {
   padding: 1rem;
   border: 1px solid var(--color-border);
-  margin: 0 0 1em 0;
-  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1em;
+  width: calc(100% - 1em);
   border-radius: var(--border-radius-sm);
   transition: ease-in-out 1s;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
