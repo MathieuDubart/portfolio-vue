@@ -319,7 +319,7 @@ h2.client {
     bottom: -135px;
   }
   .works {
-    min-height: 100%;
+    min-height: 100vh;
   }
   .works .title {
     margin-top: 1em;
