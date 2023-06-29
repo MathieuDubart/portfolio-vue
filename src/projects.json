@@ -42,7 +42,7 @@
     "client":"Personal project",
     "cta_label": "Show on Instagram",
     "href":"https://instagram.com/mathieudbrt",
-    "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
+    "intro":"On this page, you'll find a number of <span class='bold'>different portraits</span>, all of which are experiments in which <span class='bold'>the aim was to find a specific aesthetic</span> for each series of photos. However, we can see that most of the aesthetics give off, more or less, the same atmosphere. This is mainly due to <span class='bold'>the search for a very cinematic aesthetic</span>.",
     "images":["/assets/projects/portraits/portrait-1.jpg", "/assets/projects/portraits/portrait-2.jpg", "/assets/projects/portraits/portrait-3.jpg", "/assets/projects/portraits/portrait-4.jpg", "/assets/projects/portraits/portrait-5.jpg", "/assets/projects/portraits/portrait-6.jpg", "/assets/projects/portraits/portrait-7.jpg","/assets/projects/portraits/portrait-8.jpg"],
     "tags":["Photography"],
     "technos":["EOD 5DII","Canon EF24-70mm", "f2.8"]
@@ -54,7 +54,7 @@
     "client":"Personal project",
     "cta_label": "Show on Instagram",
     "href":"https://instagram.com/mathieudbrt",
-    "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
+    "intro":"The photos below were taken for <span class='bold'>Annecy's football team</span>: Les Avalanches. All are from games in the 2022/2023 season. I also <span class='bold'>had the opportunity to work on a website</span> for the same team.",
     "images":["/assets/projects/avalanches-photoshoot/avalanches-1.jpg", "/assets/projects/avalanches-photoshoot/avalanches-2.jpg", "/assets/projects/avalanches-photoshoot/avalanches-3.jpg", "/assets/projects/avalanches-photoshoot/avalanches-4.jpg", "/assets/projects/avalanches-photoshoot/avalanches-5.jpg"],
     "tags":["Photography"],
     "technos":["Nikon Z6","200-500mm","f2.8 - f5.6"]
@@ -66,7 +66,7 @@
     "client":"Personal project",
     "cta_label": "Show on Instagram",
     "href":"https://instagram.com/mathieudbrt",
-    "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
+    "intro":"<span class='bold'>L'Amour is an album by Disiz</span> released in 2022. The aim here was to <span class='bold'>produce photos </span>that could be used for commercial purposes (e.g. promotion for networks) <span class='bold'>without retouching after the shot</span>. To give the image a very orange feel, <span class='bold'>I played a lot with light</span>, especially white balance.",
     "images":["/assets/projects/l-amour/l-amour-1.jpg", "/assets/projects/l-amour/l-amour-2.jpg", "/assets/projects/l-amour/l-amour-3.jpg"],
     "tags":["Photography"],
     "technos":["EOD 5DII","Canon EF24-70mm", "f2.8"]
