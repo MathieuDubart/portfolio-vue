@@ -67,7 +67,7 @@
     "cta_label": "Show on Instagram",
     "href":"https://instagram.com/mathieudbrt",
     "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
-    "images":["/assets/projects/l-amour/l-amour-1.png", "/assets/projects/l-amour/l-amour-2.png", "/assets/projects/l-amour/l-amour-3.png"],
+    "images":["/assets/projects/l-amour/l-amour-1.jpg", "/assets/projects/l-amour/l-amour-2.jpg", "/assets/projects/l-amour/l-amour-3.jpg"],
     "tags":["Photography"],
     "technos":["EOD 5DII","Canon EF24-70mm", "f2.8"]
   }
