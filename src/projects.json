@@ -7,21 +7,21 @@
     "cta_label": "Show GitHub repo",
     "href":"https://github.com/MathieuDubart/reversing_radar",
     "intro":"<span class='bold'> Owl </span> is a reversing radar. It's a <span class='bold'>school project revolving around disability</span>, specifically cerebro-injuries. <br/><br/> For this project, I worked with two designers: <a href='https://www.instagram.com/rever.dsgn/' target='_blank' class='bold links'>(Baptiste SINHSATTANAK)</a> and  <a href='https://www.linkedin.com/in/clarissegrely/' target='_blank' class='bold links'>(Clarisse GRÉLY)</a> we had to build an object or a game <span class='bold'>to help people with disabilities</span> to socialize or to <span class='bold'>make their everyday life easier</span>. After a few interviews with people from an association, we noticed that for those in electric wheelchairs, it was often <span class='bold'>difficult to make half-turns or to go backward</span> without running into an obstacle, mainly because <span class='bold'>they couldn't turn their heads.</span>",
-    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "images":["/assets/projects/monsieurbouillon/test.png"],
     "tags":["IoT"],
     "technos":["Python", "Micropython", "Bluetooth"]
   },
   {
     "id": 1,
-    "route":"/monsieurbouillon",
+    "route":"/monsieur-bouillon",
     "title": "Monsieur Bouillon",
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://monsieurbouillon.ch/fr/",
     "intro":" <span class='bold'> Monsieur Bouillon </span> is a website realised for <span class='bold'>groupe Chevrier</span>, groupe Suisse détenant plusieurs restaurants.",
-    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "images":["/assets/projects/monsieur-bouillon/monsieur-bouillon-hero.png", "/assets/projects/monsieur-bouillon/chef-simone.png", "/assets/projects/monsieur-bouillon/menu-monsieur-bouillon.png", "/assets/projects/monsieur-bouillon/plats-monsieur-bouillon.png", "/assets/projects/monsieur-bouillon/reservation-monsieur-bouillon.png"],
     "tags":["Web development"],
-    "technos":["SCSS","JS","PHP","WORDPRESS"]
+    "technos":["SCSS","JS","PHP","WORDPRESS", "BOOTSTRAP"]
   },
   {
     "id": 2,
@@ -31,9 +31,9 @@
     "cta_label": "See it live",
     "href":"https://lepatio-restaurant.ch/fr/",
     "intro":"Comme pour Monsieur Bouillon, le Patio Restaurant est un site réalisé pour le groupe Chevrier, groupe Suisse détenant plusieurs restaurants.",
-    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "images":["/assets/projects/patio-restaurant/patio-restaurant-hero.png", "/assets/projects/patio-restaurant/patio-restaurant-cartes.png", "/assets/projects/patio-restaurant/patio-restaurant-events.png", "/assets/projects/patio-restaurant/patio-private.png", "/assets/projects/patio-restaurant/patio-footer.png"],
     "tags":["Web development"],
-    "technos":["SCSS","JS","PHP","WORDPRESS"]
+    "technos":["SCSS","JS","PHP","WORDPRESS", "BOOTSTRAP"]
   },
   {
     "id": 3,
@@ -43,7 +43,7 @@
     "cta_label": "Show on Instagram",
     "href":"https://instagram.com/mathieudbrt",
     "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
-    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "images":["/assets/projects/monsieurbouillon/test.png"],
     "tags":["Photography"],
     "technos":["EOD 5DII","Canon EF24-70mm", "f2.8"]
   },
@@ -55,7 +55,7 @@
     "cta_label": "Show on Instagram",
     "href":"https://instagram.com/mathieudbrt",
     "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
-    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "images":["/assets/projects/monsieurbouillon/test.png"],
     "tags":["Photography"],
     "technos":["Nikon Z6","200-500mm","f2.8 - f5.6"]
   },
@@ -67,7 +67,7 @@
     "cta_label": "Show on Instagram",
     "href":"https://instagram.com/mathieudbrt",
     "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, risus quis pellentesque egestas, sapien arcu euismod nisi, eget maximus lacus quam sit amet dolor. Ut tellus turpis, scelerisque et semper id, fermentum in mi. Aenean auctor condimentum elit, at faucibus dui iaculis in. Nulla ullamcorper convallis dui, quis vehicula neque hendrerit vel. Fusce ultrices dui in tortor euismod placerat. Etiam ac laoreet felis. Praesent vitae urna a nisi aliquet gravida. Proin finibus convallis quam in fermentum.",
-    "thumbnail":"./src/assets/projects/monsieurbouillon/test.png",
+    "images":["/assets/projects/l-amour/l-amour.png"],
     "tags":["Photography"],
     "technos":["EOD 5DII","Canon EF24-70mm", "f2.8"]
   }

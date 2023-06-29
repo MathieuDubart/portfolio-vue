@@ -2,11 +2,34 @@
   import { computed, isProxy, onMounted, toRaw } from "vue";
   import projectsData from "../projects.json"
 
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+  import { Navigation, Pagination, Autoplay} from 'swiper';
+  import 'swiper/css';
+  import 'swiper/css/navigation';
+  import 'swiper/css/pagination';
+  import 'swiper/css/scrollbar';
+
   export default {
+    components: {
+      Swiper,
+      SwiperSlide,
+    },
+    setup() {
+      return {
+        modules: [Pagination, Navigation, Autoplay],
+      };
+    },
     data() {
       return {
         projects: projectsData,
-        currentProject:{}
+        currentProject:{},
+        swiperOptions: {
+          breakpoints: {
+            640: {
+              'navigation':true,
+            }
+          }
+        }
       };
     },
     computed:{
@@ -18,6 +41,8 @@
       this.currentProject = this.whichProject
     }
   }
+
+  
 </script>
 
 <template>
@@ -28,5 +53,19 @@
     <div class="see-it-live"> <a :href="currentProject.href" target="_blank" class="live-link links"> ({{ currentProject.cta_label }})</a></div>
     <div class="project-description" v-html="currentProject.intro">
     </div>
+
+    <swiper
+    :pagination="true"
+    :navigation="false"
+    :modules="modules"
+    :autoplay="true"
+    :loop="true"
+    :breakpoints="swiperOptions.breakpoints"
+    class="works-swiper"
+    >
+      <swiper-slide v-for="image in currentProject.images">
+        <img :src="image" alt="carousel slide" class="carousel-slide">
+      </swiper-slide>
+    </swiper>
   </div>
 </template>
