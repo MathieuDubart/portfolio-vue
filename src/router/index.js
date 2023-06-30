@@ -44,7 +44,6 @@ for(let project of projectsData) {
   defaultRouter = dynamicRouter
 }
 
-defaultRouter.push( { path: '*', redirect: '/' })
 const router = createRouter(dynamicRouter)
 
 export default router
