@@ -28,7 +28,6 @@ let defaultRouter = {
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
     },
-    { path: '/:pathMatch(.*)', redirect: '/' }
   ]
 }
 
@@ -40,11 +39,12 @@ for(let project of projectsData) {
       path:'/works'+project.route,
       name:project.title,
       component: () => import('../views/SingleProjectView.vue')
-  })
+  },)
 
   defaultRouter = dynamicRouter
 }
 
+defaultRouter.push( { path: '*', redirect: '/' })
 const router = createRouter(dynamicRouter)
 
 export default router
