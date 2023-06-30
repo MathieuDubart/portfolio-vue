@@ -18,7 +18,7 @@
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://monsieurbouillon.ch/fr/",
-    "intro":" <span class='bold'> Monsieur Bouillon </span>  website was created for the <span class='bold'>Chevrier Group</span>, a group of restaurants <span class='bold'>owned by Swiss chef Philippe Chevrier</span>. The site includes weekly menus and the restaurant's various menus. There's also a page for reserving a table directly online.",
+    "intro":" <span class='bold'> Monsieur Bouillon </span>  website was created for the <span class='bold'>Chevrier Group</span>, a group of restaurants <span class='bold'>owned by Swiss chef Philippe Chevrier</span>. The site includes weekly menus and the restaurant's various menus. There's also a page for reserving a table directly online. I worked on it  <span class='bold'>during my first internship at Sowh4t</span>.",
     "images":["/assets/projects/monsieur-bouillon/monsieur-bouillon-hero.png", "/assets/projects/monsieur-bouillon/chef-simone.png", "/assets/projects/monsieur-bouillon/menu-monsieur-bouillon.png", "/assets/projects/monsieur-bouillon/plats-monsieur-bouillon.png", "/assets/projects/monsieur-bouillon/reservation-monsieur-bouillon.png"],
     "tags":["Web development"],
     "technos":["SCSS","JS","PHP","WORDPRESS", "BOOTSTRAP"]
@@ -30,45 +30,9 @@
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://lepatio-restaurant.ch/fr/",
-    "intro":"Like Monsieur Bouillon, the <span class='bold'>Patio Restaurant</span> website features one of <span class='bold'>chef Philippe Chevrier's establishments</span>. The site also features the restaurant's menu, as well as a page allowing you to book a private room.",
+    "intro":"Like Monsieur Bouillon, the <span class='bold'>Patio Restaurant</span> website features one of <span class='bold'>chef Philippe Chevrier's establishments</span>. The site also features the restaurant's menu, as well as a page allowing you to book a private room.  I worked on it  <span class='bold'>during my first internship at Sowh4t</span>.",
     "images":["/assets/projects/patio-restaurant/patio-restaurant-hero.png", "/assets/projects/patio-restaurant/patio-restaurant-cartes.png", "/assets/projects/patio-restaurant/patio-restaurant-events.png", "/assets/projects/patio-restaurant/patio-private.png", "/assets/projects/patio-restaurant/patio-footer.png"],
     "tags":["Web development"],
     "technos":["SCSS","JS","PHP","WORDPRESS", "BOOTSTRAP"]
-  },
-  {
-    "id": 3,
-    "route":"/portraits",
-    "title": "Portraits",
-    "client":"Personal project",
-    "cta_label": "Show on Instagram",
-    "href":"https://instagram.com/mathieudbrt",
-    "intro":"On this page, you'll find a number of <span class='bold'>different portraits</span>, all of which are experiments in which <span class='bold'>the aim was to find a specific aesthetic</span> for each series of photos. However, we can see that most of the aesthetics give off, more or less, the same atmosphere. This is mainly due to <span class='bold'>the search for a very cinematic aesthetic</span>.",
-    "images":["/assets/projects/portraits/portrait-1.jpg", "/assets/projects/portraits/portrait-2.jpg", "/assets/projects/portraits/portrait-3.jpg", "/assets/projects/portraits/portrait-4.jpg", "/assets/projects/portraits/portrait-5.jpg", "/assets/projects/portraits/portrait-6.jpg", "/assets/projects/portraits/portrait-7.jpg","/assets/projects/portraits/portrait-8.jpg"],
-    "tags":["Photography"],
-    "technos":["EOD 5DII","Canon EF24-70mm", "f2.8"]
-  },
-  {
-    "id": 4,
-    "route":"/avalanches-photoshoot",
-    "title": "Avalanches photoshoot",
-    "client":"Personal project",
-    "cta_label": "Show on Instagram",
-    "href":"https://instagram.com/mathieudbrt",
-    "intro":"The photos below were taken for <span class='bold'>Annecy's football team</span>: Les Avalanches. All are from games in the 2022/2023 season. I also <span class='bold'>had the opportunity to work on a website</span> for the same team.",
-    "images":["/assets/projects/avalanches-photoshoot/avalanches-1.jpg", "/assets/projects/avalanches-photoshoot/avalanches-2.jpg", "/assets/projects/avalanches-photoshoot/avalanches-3.jpg", "/assets/projects/avalanches-photoshoot/avalanches-4.jpg", "/assets/projects/avalanches-photoshoot/avalanches-5.jpg"],
-    "tags":["Photography"],
-    "technos":["Nikon Z6","200-500mm","f2.8 - f5.6"]
-  },
-  {
-    "id": 5,
-    "route":"/l-amour",
-    "title": "L'Amour",
-    "client":"Personal project",
-    "cta_label": "Show on Instagram",
-    "href":"https://instagram.com/mathieudbrt",
-    "intro":"<span class='bold'>L'Amour is an album by Disiz</span> released in 2022. The aim here was to <span class='bold'>produce photos </span>that could be used for commercial purposes (e.g. promotion for networks) <span class='bold'>without retouching after the shot</span>. To give the image a very orange feel, <span class='bold'>I played a lot with light</span>, especially white balance.",
-    "images":["/assets/projects/l-amour/l-amour-1.jpg", "/assets/projects/l-amour/l-amour-2.jpg", "/assets/projects/l-amour/l-amour-3.jpg"],
-    "tags":["Photography"],
-    "technos":["EOD 5DII","Canon EF24-70mm", "f2.8"]
   }
 ]

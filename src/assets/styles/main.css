@@ -199,7 +199,11 @@ a.nav-link:active {
   transition: ease-in-out .5s;
 
 }
+.single-project .project-title {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
 
+}
 .project-tags span.single-tag {
   margin-right: 0.4em;
   font-size: 0.85em;
@@ -209,16 +213,12 @@ a.nav-link:active {
   margin-bottom:.5em;
 }
 
-.project-link {
-  font-weight: 700;
-}
-
 h2.client {
   margin-bottom: .6em;
 }
 
 .for-subtitle {
-  font-size: 1rem;
+  font-size: 0.7em;
 }
 
 .see-it-live {
