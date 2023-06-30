@@ -28,7 +28,7 @@ let defaultRouter = {
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
     },
-    { path: '/:pathMatch(.*)*', redirect: '/' }
+    { path: '/:pathMatch(.*)', redirect: '/' }
   ]
 }
 
