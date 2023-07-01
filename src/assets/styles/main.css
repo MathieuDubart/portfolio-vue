@@ -347,15 +347,15 @@ h2.client {
   body:has(.homeview) {
     overflow: hidden;
     justify-content: flex-start;
-    align-items: flex-start;
-
   }
 
   body:has(.contact) {
     overflow: hidden;
     justify-content: flex-start;
-    align-items: flex-start;
+  }
 
+  .contact, .homeview {
+    margin-bottom: 3em;
   }
 
   .nav-container {
