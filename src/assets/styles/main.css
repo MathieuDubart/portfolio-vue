@@ -354,10 +354,6 @@ h2.client {
     justify-content: flex-start;
   }
 
-  .contact, .homeview {
-    margin-bottom: 3em;
-  }
-
   .nav-container {
     width: 100%;
     margin-bottom: 0;
