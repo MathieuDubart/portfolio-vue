@@ -237,6 +237,7 @@ h2.client {
 
 .project-description {
   margin-bottom: 2em;
+  width: 75%;
 }
 
 .contact h2.title {
@@ -313,6 +314,10 @@ h2.client {
   .swiper {
     width: 100%;
     height: auto;
+  }
+
+  .project-description {
+    width: 100%;
   }
 }
 
