@@ -254,7 +254,6 @@ h2.client {
 /* **** VIDEO STYLE **** */
 /* ******************** */
 .work-video {
-  height: 100%;
   width: 75%;
 }
 
@@ -264,9 +263,6 @@ h2.client {
   max-height: 1000px;
 }
 
-.work-video iframe #player {
-  border-radius: var(--border-radius-sm);
-}
 /* ********************* */
 /* *** SWIPER STYLE *** */
 /* ******************* */
@@ -344,6 +340,19 @@ h2.client {
 }
 
 @media (max-width: 760px) {
+
+  .work-video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .work-video iframe {
+    min-height: 750px;
+    height: auto;
+    max-height: 1000px;
+  }
 
   .swiper {
     width: 100%;
