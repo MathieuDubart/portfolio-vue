@@ -250,7 +250,23 @@ h2.client {
   justify-content: space-between;
   align-items: center;
 }
+/* ********************** */
+/* **** VIDEO STYLE **** */
+/* ******************** */
+.work-video {
+  height: 100%;
+  width: 75%;
+}
 
+.work-video iframe {
+  min-height: 750px;
+  height: auto;
+  max-height: 1000px;
+}
+
+.work-video iframe #player {
+  border-radius: var(--border-radius-sm);
+}
 /* ********************* */
 /* *** SWIPER STYLE *** */
 /* ******************* */

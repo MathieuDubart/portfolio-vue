@@ -54,6 +54,10 @@
     <div class="project-description" v-html="currentProject.intro">
     </div>
 
+    <div v-if="currentProject.medias_type=='video'" class="work-video">
+      <iframe :src="currentProject.video" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     <swiper
     :pagination="true"
     :navigation="false"
@@ -62,10 +66,12 @@
     :loop="true"
     :breakpoints="swiperOptions.breakpoints"
     class="works-swiper"
+    v-else
     >
       <swiper-slide v-for="image in currentProject.images">
         <img :src="image" alt="carousel slide" class="carousel-slide">
       </swiper-slide>
     </swiper>
+
   </div>
 </template>

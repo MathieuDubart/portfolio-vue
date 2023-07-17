@@ -7,7 +7,9 @@
     "cta_label": "Show GitHub repo",
     "href":"https://github.com/MathieuDubart/reversing_radar",
     "intro":"<span class='bold'> Owl </span> is a reversing radar. It's a <span class='bold'>school project revolving around disability</span>, specifically cerebro-injuries. <br/><br/> For this project, I worked with two designers: <a href='https://www.instagram.com/rever.dsgn/' target='_blank' class='bold links'>(Baptiste SINHSATTANAK)</a> and  <a href='https://www.linkedin.com/in/clarissegrely/' target='_blank' class='bold links'>(Clarisse GRÉLY)</a>. We had to build an object or a game <span class='bold'>to help people with disabilities</span> to socialize or to <span class='bold'>make their everyday life easier</span>. After a few interviews with people from an association, we noticed that for those in electric wheelchairs, it was often <span class='bold'>difficult to make half-turns or to go backward</span> without running into an obstacle, mainly because <span class='bold'>they couldn't turn their heads.</span>",
+    "medias_type":"carousel",
     "images":["/assets/projects/owl/owl-proto-sensors.jpg","/assets/projects/owl/owl-proto-sensors-2.jpg","/assets/projects/owl/owl-final-product.jpg","/assets/projects/owl/owl-sensors.jpg"],
+    "video":"",
     "tags":["IoT"],
     "technos":["Python", "Micropython", "Bluetooth"]
   },
@@ -19,7 +21,9 @@
     "cta_label": "See it live",
     "href":"https://monsieurbouillon.ch/fr/",
     "intro":" <span class='bold'> Monsieur Bouillon </span>  website was created for the <span class='bold'>Chevrier Group</span>, a group of restaurants <span class='bold'>owned by Swiss chef Philippe Chevrier</span>. The site includes weekly menus and the restaurant's various menus. There's also a page for reserving a table directly online. I worked on it  <span class='bold'>during my first internship at Sowh4t</span>.",
+    "medias_type":"carousel",
     "images":["/assets/projects/monsieur-bouillon/monsieur-bouillon-hero.png", "/assets/projects/monsieur-bouillon/chef-simone.png", "/assets/projects/monsieur-bouillon/menu-monsieur-bouillon.png", "/assets/projects/monsieur-bouillon/plats-monsieur-bouillon.png", "/assets/projects/monsieur-bouillon/reservation-monsieur-bouillon.png"],
+    "video":"",
     "tags":["Web development"],
     "technos":["SCSS","JS","PHP","WORDPRESS", "BOOTSTRAP"]
   },
@@ -30,9 +34,25 @@
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://lepatio-restaurant.ch/fr/",
-    "intro":"Like Monsieur Bouillon, the <span class='bold'>Patio Restaurant</span> website features one of <span class='bold'>chef Philippe Chevrier's establishments</span>. The site also features the restaurant's menu, as well as a page allowing you to book a private room.  I worked on it  <span class='bold'>during my first internship at Sowh4t</span>.",
+    "intro":"Like Monsieur Bouillon, the <span class='bold'>Patio Restaurant</span> website features one of <span class='bold'>chef Philippe Chevrier's establishments</span>. The site also features the restaurant's menu, as well as a page allowing you to book a private room. I worked on it <span class='bold'>during my first internship at Sowh4t</span>.",
+    "medias_type":"carousel",
     "images":["/assets/projects/patio-restaurant/patio-restaurant-hero.png", "/assets/projects/patio-restaurant/patio-restaurant-cartes.png", "/assets/projects/patio-restaurant/patio-restaurant-events.png", "/assets/projects/patio-restaurant/patio-private.png", "/assets/projects/patio-restaurant/patio-footer.png"],
+    "video":"",
     "tags":["Web development"],
     "technos":["SCSS","JS","PHP","WORDPRESS", "BOOTSTRAP"]
+  },
+  {
+    "id": 3,
+    "route":"/open-quizz",
+    "title": "Open Quizz",
+    "client": "Myself",
+    "cta_label": "Show GitHub repo", 
+    "href":"https://github.com/MathieuDubart/oc_app",
+    "intro":"<span class='bold'>Open Quizz</span>, as it name says, is a <span class='bold'>quizz game</span>. It's my <span class='bold'>first application in Swift</span> and I made it by taking an <span class='bold'>OpenClassroom online course</span>. I've <span class='bold'>always been interested</span> in mobile development and I <span class='bold'>didn't want to wait</span> for third year of the bachelor to learn it so, between my second and my third year, I decided to take online courses in order <span class='bold'>to start learning mobile development.</span>",
+    "medias_type":"video",
+    "images":[],
+    "video":"https://player.vimeo.com/video/845977902?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "tags":["Mobile development"],
+    "technos":["Swift"]
   }
 ]
