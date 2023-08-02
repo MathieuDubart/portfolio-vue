@@ -54,5 +54,19 @@
     "video":"https://player.vimeo.com/video/845977902?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     "tags":["Mobile development"],
     "technos":["Swift"]
+  },
+  {
+    "id": 4,
+    "route":"/wesplit",
+    "title": "WeSplit",
+    "client": "Myself",
+    "cta_label": "Show GitHub repo", 
+    "href":"https://github.com/MathieuDubart/WeSplit",
+    "intro":"<span class='bold'>WeSplit</span> is a mobile application that <span class='bold'>makes it easy</span> for multiple diners <span class='bold'>to split the bill.</span> This application was created to prepare me for the third year of my bachelor's degree. It was part of the course I took to learn SwiftUI: <i>100 Days of SwiftUI</i>.",
+    "medias_type":"video",
+    "images":[],
+    "video":"https://player.vimeo.com/video/851021770?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "tags":["Mobile development"],
+    "technos":["Swift", "SwiftUI"]
   }
 ]
