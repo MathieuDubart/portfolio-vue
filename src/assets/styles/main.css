@@ -399,6 +399,9 @@ h2.client {
   .works .title {
     margin-top: 1em;
   }
+  .contact {
+    margin-top: -5em;
+  }
   .contact .title{
   margin-top: 1em;
   }
