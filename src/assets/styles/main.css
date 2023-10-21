@@ -118,7 +118,7 @@ header {
   align-items:center;
 }
 .introduction svg.home-logo {
-  width: 100%;
+  max-height: 400px;
   margin-bottom: 3rem;
   fill:#1D1D1B;
 }
