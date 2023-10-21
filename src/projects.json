@@ -57,17 +57,17 @@
   },
   {
     "id": 4,
-    "route":"/open-quizz",
-    "title": "Open Quizz",
+    "route":"/bucketlist",
+    "title": "Bucketlist",
     "client": "Myself",
     "cta_label": "Show GitHub repo.", 
-    "href":"https://github.com/MathieuDubart/oc_app",
-    "intro":"<span class='bold'>Open Quizz</span>, as it name says, is a <span class='bold'>quizz game</span>. It's my <span class='bold'>first application in Swift</span> and I made it by taking an <span class='bold'>OpenClassroom online course</span>. I've <span class='bold'>always been interested</span> in mobile development and I <span class='bold'>didn't want to wait</span> for third year of the bachelor to learn it so, between my second and my third year, I decided to take online courses in order <span class='bold'>to start learning mobile development.</span>",
+    "href":"https://github.com/MathieuDubart/Bucketlist",
+    "intro":"Bucketlist is an application created during the '100 days of SwiftUI'. It allows you to mark on the map places you've already visited/that you'd like to visit. You can change the title and description of a destination, and view nearby points of interest.",
     "medias_type":"video",
     "images":[],
-    "video":"https://player.vimeo.com/video/845977902?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "video":"https://player.vimeo.com/video/876640059?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     "tags":["Mobile development"],
-    "technos":["Swift"]
+    "technos":["Swift", "SwiftUI", "MapKit", "CoreData", "FaceID", "Wikipedia API"]
   },
   {
     "id": 5,
