@@ -43,8 +43,8 @@
   },
   {
     "id": 3,
-    "route":"/avalanches-photoshoots",
-    "title": "Avalanches Photoshoots",
+    "route":"/avalanches-photoshoot",
+    "title": "Avalanches Photoshoot",
     "client": "Avalanches Annecy",
     "cta_label": "See more on Instagram.",
     "href":"https://instagram.com/mathieudbrt",
