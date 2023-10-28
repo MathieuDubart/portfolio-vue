@@ -92,7 +92,7 @@
     "href":"https://avalanches-annecy.fr/",
     "intro":"<span class='bold'>Les Avalanches </span> is a football team located in Annecy. After my first internship, I was looking for a new one. With this in mind, I contacted the local football team to bring some freshness to their website. This also led to other projects, including photoshoots with this same team.",
     "medias_type":"carousel",
-    "images":["/assets/projects/avalanches-annecy/avalanches-old-website.png", "/assets/projects/avalanches-annecy/avalanches-header.jpg", "/assets/projects/avalanches-annecy/avalanches-matchs.png", "/assets/projects/avalanches-annecy/avalanches-contact.png"],
+    "images":["/assets/projects/avalanches-annecy/avalanches-old-website.png", "/assets/projects/avalanches-annecy/avalanches-header.jpeg", "/assets/projects/avalanches-annecy/avalanches-matchs.png", "/assets/projects/avalanches-annecy/avalanches-contact.png"],
     "video":"",
     "tags":["Web development"],
     "technos":["WORDPRESS", "SCSS", "PHP", "BOOTSTRAP"]
