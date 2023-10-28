@@ -71,15 +71,15 @@
   },
   {
     "id": 5,
-    "route":"/wesplit",
-    "title": "WeSplit",
+    "route":"/iexpense",
+    "title": "iExpense",
     "client": "Myself",
     "cta_label": "Show GitHub repo.", 
-    "href":"https://github.com/MathieuDubart/WeSplit",
-    "intro":"<span class='bold'>WeSplit</span> is a mobile application that <span class='bold'>makes it easy</span> for multiple diners <span class='bold'>to split the bill.</span> This application was created to prepare me for the third year of my bachelor's degree. It was part of the course I took to learn SwiftUI: <i>100 Days of SwiftUI</i>.",
+    "href":"https://github.com/MathieuDubart/iExpense",
+    "intro":"<span class='bold'>iExpense</span> is a mobile application that <span class='bold'>makes it easy</span> to <span class='bold'>keep track of your expenses</span> This application was created to prepare me for the third year of my bachelor's degree. It was part of the course I took to learn SwiftUI: <i>100 Days of SwiftUI</i>.",
     "medias_type":"video",
     "images":[],
-    "video":"https://player.vimeo.com/video/851021770?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "video":"https://streamable.com/e/glpolj",
     "tags":["Mobile development"],
     "technos":["Swift", "SwiftUI"]
   },
@@ -87,7 +87,7 @@
     "id": 6,
     "route":"/avalanches-annecy",
     "title": "Avalanches website",
-    "client": "avalanches Annecy",
+    "client": "Avalanches Annecy",
     "cta_label": "See it live.", 
     "href":"https://avalanches-annecy.fr/",
     "intro":"<span class='bold'>Les Avalanches </span> is a football team located in Annecy. After my first internship, I was looking for a new one. With this in mind, I contacted the local football team to bring some freshness to their website. This also led to other projects, including photoshoots with this same team.",
@@ -96,5 +96,33 @@
     "video":"",
     "tags":["Web development"],
     "technos":["WORDPRESS", "SCSS", "PHP", "BOOTSTRAP"]
+  },
+  {
+    "id": 7,
+    "route":"/tasks-tracker",
+    "title": "Tasks Tracker",
+    "client": "Myself",
+    "cta_label": "Show GitHub repo.", 
+    "href":"https://github.com/MathieuDubart/tasks-tracker",
+    "intro":"<span class='bold'>Tasks Tracker</span> is a mobile application that <span class='bold'>makes it easy</span> to <span class='bold'>keep track of your daily tasks.</span> This application was created to prepare me for the third year of my bachelor's degree. It was part of the course I took to learn SwiftUI: <i>100 Days of SwiftUI</i>.",
+    "medias_type":"video",
+    "images":[],
+    "video":"https://streamable.com/e/yuqiha",
+    "tags":["Mobile development"],
+    "technos":["Swift", "SwiftUI"]
+  },
+  {
+    "id": 8,
+    "route":"/neufplate",
+    "title": "Neufplate",
+    "client": "Myself",
+    "cta_label": "Show GitHub repo.", 
+    "href":"https://github.com/MathieuDubart/Neufplate",
+    "intro":"<span class='bold'>Neufplate</span> is a mobile application that <span class='bold'>generate NFTs.</span>. It was made during The first week of my 3rd Bachelor's year. It's a small application built during the Design Patterns course, using differents of those Design Patterns.",
+    "medias_type":"video",
+    "images":[],
+    "video":"https://streamable.com/e/vlpibm",
+    "tags":["Mobile development"],
+    "technos":["Swift", "SwiftUI", "Design Pattern", "API"]
   }
 ]
