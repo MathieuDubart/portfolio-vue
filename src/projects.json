@@ -42,20 +42,6 @@
     "technos":["SCSS","JS","PHP","WORDPRESS", "BOOTSTRAP"]
   },
   {
-    "id": 3,
-    "route":"/avalanches-photoshoot",
-    "title": "Avalanches Photoshoot",
-    "client": "Avalanches Annecy",
-    "cta_label": "See more on Instagram.",
-    "href":"https://instagram.com/mathieudbrt",
-    "intro":"The photoshoots for Les Avalanches follows the website refresh proposal. All pictures were taken during games and they also used some for their Instagram posts.",
-    "medias_type":"carousel",
-    "images":["/assets/projects/avalanches-photoshoot/avalanches-1.jpg", "/assets/projects/avalanches-photoshoot/avalanches-2.jpg", "/assets/projects/avalanches-photoshoot/avalanches-3.jpg", "/assets/projects/avalanches-photoshoot/avalanches-4.jpg", "/assets/projects/avalanches-photoshoot/avalanches-5.jpg", "/assets/projects/avalanches-photoshoot/avalanches-6.jpg", "/assets/projects/avalanches-photoshoot/avalanches-7.jpg"],
-    "video":"",
-    "tags":["Photography"],
-    "technos":["Nikon D750", "Objectif 200-500mm"]
-  },
-  {
     "id": 4,
     "route":"/bucketlist",
     "title": "Bucketlist",
