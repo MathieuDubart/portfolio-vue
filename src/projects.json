@@ -102,8 +102,8 @@
       "/assets/projects/avalanches-annecy/avalanches-contact.png"
     ],
     "video":"",
-    "tags":["Web development"],
-    "technos":["WORDPRESS", "SCSS", "PHP", "BOOTSTRAP"]
+    "tags":["Web development", "Web design"],
+    "technos":["FIGMA", "WORDPRESS", "SCSS", "PHP", "BOOTSTRAP"]
   },
   {
     "id": 7,
@@ -177,6 +177,6 @@
     ],
     "video":"",
     "tags":["Photography"],
-    "technos":["iPhone 15 Pro Max", "Lightroom"]
+    "technos":["iPhone", "Lightroom"]
   }
 ]

@@ -22,7 +22,7 @@
       </svg>
 
 
-    <h1 class="title">Developer, Photographer & SwiftUI lover.</h1>
+    <h1 class="title">Developer, Photographer <span class="gradient">&</span> SwiftUI lover.</h1>
     <div class="container-get-in-touch">
       <RouterLink to="/works" class="discover-work links"><h3 class="subtitle">(Discover my work)</h3></RouterLink>
     </div>
