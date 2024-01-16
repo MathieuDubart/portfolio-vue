@@ -1,24 +1,5 @@
 [
   {
-    "id": 0,
-    "route":"/owl-radar",
-    "title": "Owl",
-    "client": "School project",
-    "cta_label": "Show GitHub repo",
-    "href":"https://github.com/MathieuDubart/reversing_radar",
-    "intro":"<span class='bold'> Owl </span> is a reversing radar. It's a <span class='bold'>school project revolving around disability</span>, specifically cerebro-injuries. <br/><br/> For this project, I worked with two designers: <a href='https://www.instagram.com/rever.dsgn/' target='_blank' class='bold links'>(Baptiste SINHSATTANAK)</a> and  <a href='https://www.linkedin.com/in/clarissegrely/' target='_blank' class='bold links'>(Clarisse GRÉLY)</a>. We had to build an object or a game <span class='bold'>to help people with disabilities</span> to socialize or to <span class='bold'>make their everyday life easier</span>. After a few interviews with people from an association, we noticed that for those in electric wheelchairs, it was often <span class='bold'>difficult to make half-turns or to go backward</span> without running into an obstacle, mainly because <span class='bold'>they couldn't turn their heads.</span>",
-    "medias_type":"carousel",
-    "images":[
-      "/assets/projects/owl/owl-proto-sensors.jpg",
-      "/assets/projects/owl/owl-proto-sensors-2.jpg",
-      "/assets/projects/owl/owl-final-product.jpg",
-      "/assets/projects/owl/owl-sensors.jpg"
-    ],
-    "video":"",
-    "tags":["IoT"],
-    "technos":["Python", "Micropython", "Bluetooth"]
-  },
-  {
     "id": 1,
     "route":"/monsieur-bouillon",
     "title": "Monsieur Bouillon",
@@ -59,35 +40,7 @@
     "technos":["SCSS","JS","PHP","WORDPRESS", "BOOTSTRAP"]
   },
   {
-    "id": 4,
-    "route":"/bucketlist",
-    "title": "Bucketlist",
-    "client": "Myself",
-    "cta_label": "Show GitHub repo", 
-    "href":"https://github.com/MathieuDubart/Bucketlist",
-    "intro":"Bucketlist is an application created during the '100 days of SwiftUI'. It allows you to mark on the map places you've already visited/that you'd like to visit. You can change the title and description of a destination, and view nearby points of interest.",
-    "medias_type":"video",
-    "images":[],
-    "video":"https://player.vimeo.com/video/876640059?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "tags":["Mobile development"],
-    "technos":["Swift", "SwiftUI", "MapKit", "CoreData", "FaceID", "Wikipedia API"]
-  },
-  {
-    "id": 5,
-    "route":"/iexpense",
-    "title": "iExpense",
-    "client": "Myself",
-    "cta_label": "Show GitHub repo", 
-    "href":"https://github.com/MathieuDubart/iExpense",
-    "intro":"<span class='bold'>iExpense</span> is a mobile application that <span class='bold'>makes it easy</span> to <span class='bold'>keep track of your expenses</span> This application was created to prepare me for the third year of my bachelor's degree. It was part of the course I took to learn SwiftUI: <i>100 Days of SwiftUI</i>.",
-    "medias_type":"video",
-    "images":[],
-    "video":"https://streamable.com/e/glpolj",
-    "tags":["Mobile development"],
-    "technos":["Swift", "SwiftUI"]
-  },
-  {
-    "id": 6,
+    "id": 3,
     "route":"/avalanches-annecy",
     "title": "Avalanches website",
     "client": "Avalanches Annecy",
@@ -106,7 +59,7 @@
     "technos":["FIGMA", "WORDPRESS", "SCSS", "PHP", "BOOTSTRAP"]
   },
   {
-    "id": 7,
+    "id": 4,
     "route":"/avalanches-photoshoot",
     "title": "Avalanches photoshoot",
     "client": "Avalanches Annecy",
@@ -115,47 +68,18 @@
     "intro":"<span class='bold'>This photoshoot</span> takes place <span class='bold'>after I redesigned</span> the <span class='bold'>Annecy Avalanches</span> webiste. It my first sport photoshoot. All pictures were taken during games.",
     "medias_type":"carousel",
     "images":[
-      "/assets/projects/avalanches-photoshoot/avalanches-1.jpg",
-      "/assets/projects/avalanches-photoshoot/avalanches-2.jpg",
+      "/assets/projects/avalanches-photoshoot/avalanches-1.jpeg",
+      "/assets/projects/avalanches-photoshoot/avalanches-2.jpeg",
       "/assets/projects/avalanches-photoshoot/avalanches-3.jpg",
       "/assets/projects/avalanches-photoshoot/avalanches-4.jpg",
-      "/assets/projects/avalanches-photoshoot/avalanches-5.jpg",
-      "/assets/projects/avalanches-photoshoot/avalanches-6.jpg",
-      "/assets/projects/avalanches-photoshoot/avalanches-7.jpg"],
+      "/assets/projects/avalanches-photoshoot/avalanches-5.jpeg",
+      "/assets/projects/avalanches-photoshoot/avalanches-6.jpg"],
     "video":"",
     "tags":["Photography"],
     "technos":["Nikon D750", "200-500mm", "Lightroom"]
   },
   {
-    "id": 8,
-    "route":"/tasks-tracker",
-    "title": "Tasks Tracker",
-    "client": "Myself",
-    "cta_label": "Show GitHub repo", 
-    "href":"https://github.com/MathieuDubart/tasks-tracker",
-    "intro":"<span class='bold'>Tasks Tracker</span> is a mobile application that <span class='bold'>makes it easy</span> to <span class='bold'>keep track of your daily tasks.</span> This application was created to prepare me for the third year of my bachelor's degree. It was part of the course I took to learn SwiftUI: <i>100 Days of SwiftUI</i>.",
-    "medias_type":"video",
-    "images":[],
-    "video":"https://streamable.com/e/yuqiha",
-    "tags":["Mobile development"],
-    "technos":["Swift", "SwiftUI"]
-  },
-  {
-    "id": 9,
-    "route":"/neufplate",
-    "title": "Neufplate",
-    "client": "Myself",
-    "cta_label": "Show GitHub repo", 
-    "href":"https://github.com/MathieuDubart/Neufplate",
-    "intro":"<span class='bold'>Neufplate</span> is a mobile application that <span class='bold'>generate NFTs.</span>. It was made during The first week of my 3rd Bachelor's year. It's a small application built during the Design Patterns course, using differents of those Design Patterns.",
-    "medias_type":"video",
-    "images":[],
-    "video":"https://streamable.com/e/vlpibm",
-    "tags":["Mobile development"],
-    "technos":["Swift", "SwiftUI", "Design Pattern", "API"]
-  },
-  {
-    "id": 7,
+    "id": 5,
     "route":"/brique-argent",
     "title": "Brique Argent",
     "client": "Myself",
@@ -174,6 +98,28 @@
       "/assets/projects/brique-argent/grandes/IMG_6573.jpeg",
       "/assets/projects/brique-argent/grandes/IMG_6584.jpeg",
       "/assets/projects/brique-argent/grandes/IMG_6586.jpeg"
+    ],
+    "video":"",
+    "tags":["Photography"],
+    "technos":["iPhone", "Lightroom"]
+  },
+  {
+    "id": 5,
+    "route":"/portraits",
+    "title": "Portraits",
+    "client": "Myself",
+    "cta_label": "Show on instagram", 
+    "href":"https://www.instagram.com/mathieudbrt/",
+    "intro":"",
+    "medias_type":"carousel",
+    "images":[
+      "/assets/projects/portraits/portraits-01.jpeg",
+      "/assets/projects/portraits/portraits-02.jpeg",
+      "/assets/projects/portraits/portraits-03.jpeg",
+      "/assets/projects/portraits/portraits-04.jpeg",
+      "/assets/projects/portraits/portraits-05.jpeg",
+      "/assets/projects/portraits/portraits-06.jpeg",
+      "/assets/projects/portraits/portraits-07.jpeg"
     ],
     "video":"",
     "tags":["Photography"],
