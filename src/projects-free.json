@@ -6,7 +6,7 @@
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://monsieurbouillon.ch/fr/",
-    "intro":" <span class='bold'> Monsieur Bouillon </span>  website was created for the <span class='bold'>Chevrier Group</span>, a group of restaurants <span class='bold'>owned by Swiss chef Philippe Chevrier</span>. The site includes weekly menus and the restaurant's various menus. There's also a page for reserving a table directly online. I worked on it  <span class='bold'>during my first internship at Sowh4t</span>.",
+    "intro":" <span class='bold'> Monsieur Bouillon </span>  website was created for the <span class='bold'>Chevrier Group</span>, a group of restaurants <span class='bold'>owned by Swiss chef Philippe Chevrier</span>. The site includes weekly menus and the restaurant's various menus. There's also a page for reserving a table directly online.",
     "medias_type":"carousel",
     "images":[
       "/assets/projects/monsieur-bouillon/monsieur-bouillon-hero.png",
@@ -26,7 +26,7 @@
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://lepatio-restaurant.ch/fr/",
-    "intro":"Like Monsieur Bouillon, the <span class='bold'>Patio Restaurant</span> website was made for one of <span class='bold'>chef Philippe Chevrier's establishments</span>. The site also features the restaurant's menu, as well as a page allowing you to book a private room. I worked on it <span class='bold'>during my first internship at Sowh4t</span>.",
+    "intro":"Like Monsieur Bouillon, the <span class='bold'>Patio Restaurant</span> website was made for one of <span class='bold'>chef Philippe Chevrier's establishments</span>. The site also features the restaurant's menu, as well as a page allowing you to book a private room.",
     "medias_type":"carousel",
     "images":[
       "/assets/projects/patio-restaurant/patio-restaurant-hero.png",
