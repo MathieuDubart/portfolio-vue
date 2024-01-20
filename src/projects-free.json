@@ -113,16 +113,16 @@
     "intro":"",
     "medias_type":"carousel",
     "images":[
-      "/assets/projects/portraits/portraits-01.jpeg",
-      "/assets/projects/portraits/portraits-02.jpeg",
-      "/assets/projects/portraits/portraits-03.jpeg",
-      "/assets/projects/portraits/portraits-04.jpeg",
-      "/assets/projects/portraits/portraits-05.jpeg",
-      "/assets/projects/portraits/portraits-06.jpeg",
-      "/assets/projects/portraits/portraits-07.jpeg"
+      "/assets/projects/portraits/portrait-01.jpeg",
+      "/assets/projects/portraits/portrait-02.jpeg",
+      "/assets/projects/portraits/portrait-03.jpeg",
+      "/assets/projects/portraits/portrait-04.jpeg",
+      "/assets/projects/portraits/portrait-05.jpeg",
+      "/assets/projects/portraits/portrait-06.jpeg",
+      "/assets/projects/portraits/portrait-07.jpeg"
     ],
     "video":"",
     "tags":["Photography"],
-    "technos":["iPhone", "Lightroom"]
+    "technos":["Canon EOS5D Mark II", "iPhone", "Lightroom"]
   }
 ]
