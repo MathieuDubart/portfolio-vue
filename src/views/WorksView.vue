@@ -39,7 +39,7 @@
 
 <template>
   <div class="works">
-    <h1 class="title decorator"> Discover my work </h1>
+    <h1 class="title"><span class="decorator">Discover</span> my work </h1>
 
     
     <div class="filters-container">
