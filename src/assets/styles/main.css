@@ -138,6 +138,9 @@ header {
   color: var(--vt-c-text-light-2);
 }
 
+.decorator {
+  font-weight: 700;
+}
 .decorator::after {
   content: '';
   position: absolute;
