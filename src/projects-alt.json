@@ -2,7 +2,7 @@
   {
     "id": 0,
     "route":"/owl-radar",
-    "title": "Owl",
+    "title": "<span class='decorator'>Owl</span>",
     "client": "School project",
     "cta_label": "Show GitHub repo",
     "href":"https://github.com/MathieuDubart/reversing_radar",
@@ -21,7 +21,7 @@
   {
     "id": 1,
     "route":"/monsieur-bouillon",
-    "title": "Monsieur Bouillon",
+    "title": "<span class='decorator'>Monsieur</span> Bouillon",
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://monsieurbouillon.ch/fr/",
@@ -41,7 +41,7 @@
   {
     "id": 2,
     "route":"/patio-restaurant",
-    "title": "Patio Restaurant",
+    "title": "<span class='decorator'>Patio</span> Restaurant",
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://lepatio-restaurant.ch/fr/",
@@ -61,7 +61,7 @@
   {
     "id": 4,
     "route":"/bucketlist",
-    "title": "Bucketlist",
+    "title": "<span class='decorator'>Bucketlist</span>",
     "client": "Myself",
     "cta_label": "Show GitHub repo", 
     "href":"https://github.com/MathieuDubart/Bucketlist",
@@ -75,7 +75,7 @@
   {
     "id": 5,
     "route":"/iexpense",
-    "title": "iExpense",
+    "title": "<span class='decorator'>iExpense</span>",
     "client": "Myself",
     "cta_label": "Show GitHub repo", 
     "href":"https://github.com/MathieuDubart/iExpense",
@@ -90,7 +90,7 @@
     "id": 6,
     "route":"/avalanches-annecy",
     "title": "Avalanches website",
-    "client": "Avalanches Annecy",
+    "client": "<span class='decorator'>Avalanches</span> Annecy",
     "cta_label": "See it live", 
     "href":"https://avalanches-annecy.fr/",
     "intro":"<span class='bold'>Les Avalanches </span> is a football team located in Annecy. After my first internship, I was looking for a new one. With this in mind, I contacted the local football team to bring some freshness to their website. This also led to a photoshoot with this same team during football games.",
@@ -108,7 +108,7 @@
   {
     "id": 7,
     "route":"/tasks-tracker",
-    "title": "Tasks Tracker",
+    "title": "<span class='decorator'>Tasks</span> Tracker",
     "client": "Myself",
     "cta_label": "Show GitHub repo", 
     "href":"https://github.com/MathieuDubart/tasks-tracker",
@@ -122,7 +122,7 @@
   {
     "id": 8,
     "route":"/neufplate",
-    "title": "Neufplate",
+    "title": "<span class='decorator'>Neufplate</span>",
     "client": "Myself",
     "cta_label": "Show GitHub repo", 
     "href":"https://github.com/MathieuDubart/Neufplate",

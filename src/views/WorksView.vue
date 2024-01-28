@@ -54,7 +54,7 @@
     <div class="works-container grid md:grid-cols-3 sm:grid-cols-1">
       <div v-for="project in filteredProjects" :key="project.id" class="single-project">
         <RouterLink :to="'/works'+project.route">
-          <h3 class="project-title ">{{ project.title }}</h3>
+          <h3 class="project-title" v-html="project.card_title"></h3>
           <div class="project-tags"> <span v-for="tag in project.tags" class="single-tag light-grey">{{ tag }}</span> </div>
           <div class="project-link links">(See project)</div>
         </RouterLink>

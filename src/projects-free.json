@@ -2,7 +2,8 @@
   {
     "id": 1,
     "route":"/monsieur-bouillon",
-    "title": "Monsieur Bouillon",
+    "card_title": "Monsieur Bouillon",
+    "title": "<span class='decorator'>Monsieur</span> Bouillon",
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://monsieurbouillon.ch/fr/",
@@ -22,7 +23,8 @@
   {
     "id": 2,
     "route":"/patio-restaurant",
-    "title": "Patio Restaurant",
+    "card_title": "Patio Restaurant",
+    "title": "<span class='decorator'>Patio</span> Restaurant",
     "client": "Groupe Chevrier",
     "cta_label": "See it live",
     "href":"https://lepatio-restaurant.ch/fr/",
@@ -42,7 +44,8 @@
   {
     "id": 3,
     "route":"/avalanches-annecy",
-    "title": "Avalanches website",
+    "card_title": "Avalanches website",
+    "title": "<span class='decorator'>Avalanches</span> website",
     "client": "Avalanches Annecy",
     "cta_label": "See it live", 
     "href":"https://avalanches-annecy.fr/",
@@ -61,7 +64,8 @@
   {
     "id": 4,
     "route":"/avalanches-photoshoot",
-    "title": "Avalanches photoshoot",
+    "card_title": "Avalanches photoshoot",
+    "title": "<span class='decorator'>Avalanches</span> photoshoot",
     "client": "Avalanches Annecy",
     "cta_label": "Show on instagram", 
     "href":"https://www.instagram.com/mathieudbrt/",
@@ -81,7 +85,8 @@
   {
     "id": 5,
     "route":"/brique-argent",
-    "title": "Brique Argent",
+    "card_title": "Brique Argent",
+    "title": "<span class='decorator'>Brique</span> Argent",
     "client": "Myself",
     "cta_label": "Show on instagram", 
     "href":"https://www.instagram.com/mathieudbrt/",
@@ -106,11 +111,12 @@
   {
     "id": 5,
     "route":"/portraits",
-    "title": "Portraits",
+    "card_title": "Portraits",
+    "title": "<span class='decorator'>Portraits</span>",
     "client": "Myself",
     "cta_label": "Show on instagram", 
     "href":"https://www.instagram.com/mathieudbrt/",
-    "intro":"",
+    "intro":"Just some portraits I love.",
     "medias_type":"carousel",
     "images":[
       "/assets/projects/portraits/portrait-01.jpeg",
@@ -128,7 +134,8 @@
   {
     "id": 6,
     "route":"/morganellisa",
-    "title": "@morganellisa",
+    "card_title": "@morganellisa",
+    "title": "<span class='decorator'>@morganellisa</span>",
     "client": "Myself",
     "cta_label": "Show on instagram", 
     "href":"https://www.instagram.com/mathieudbrt/",
