@@ -94,8 +94,8 @@
   {
     "id": 6,
     "route":"/avalanches-annecy",
-    "title": "Avalanches website",
-    "client": "<span class='decorator'>Avalanches</span> Annecy",
+    "title": "<span class='decorator'>Avalanches</span> website",
+    "client": "Avalanches Annecy",
     "card_title": "Avalanches website",
     "cta_label": "See it live", 
     "href":"https://avalanches-annecy.fr/",
