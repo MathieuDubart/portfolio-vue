@@ -140,6 +140,8 @@ header {
 .nav-container .navbar {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-container .navbar .nav-link {
@@ -149,6 +151,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 24px;
 }
 
 .contact-link {
@@ -196,7 +199,7 @@ a.nav-link::after {
   min-width: 38px;
   transform: scaleX(0);
   height: 2px;
-  left: 18px;
+  left: 16px;
   bottom: 0px;
   background: -webkit-linear-gradient(0deg, rgb(96, 137, 248) -10%, rgb(43,220,90) 110%);
   transform-origin: bottom right;
