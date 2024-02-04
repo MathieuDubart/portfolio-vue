@@ -23,18 +23,17 @@ body {
   right: 0%;
 }
 
-.navbar-mobile-cta {
+a.navbar-mobile-cta {
   display: none;
   border: 3px solid var(--color-text);
   border-radius: 360px;
   height: 38px;
   width: 28px;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.navbar-mobile-cta i {
+a.navbar-mobile-cta i {
   color: var(--color-text)
 }
 
@@ -327,7 +326,7 @@ h2.client {
 
 .networks-container {
   display: inline-flex;
-  width: 250px;
+  width: 300px;
   justify-content: space-between;
   align-items: center;
 }
