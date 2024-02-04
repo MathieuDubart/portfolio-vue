@@ -25,6 +25,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/" class="nav-link">Home</RouterLink>
       <RouterLink to="/works" class="nav-link">Works</RouterLink>
       <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
+      <a class="navbar-mobile-cta" href="tel:+330667192999"> <i class="fa-solid fa-phone"></i> </a>
     </nav>
   </div>
 </template>
