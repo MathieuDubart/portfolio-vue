@@ -34,6 +34,10 @@ body {
   align-items: center;
 }
 
+.navbar-mobile-cta i {
+  color: var(--vt-c-black)
+}
+
 .noise {
   width: 100vw;
   height: 100vh;
