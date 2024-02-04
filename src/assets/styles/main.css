@@ -329,7 +329,7 @@ h2.client {
 
 .networks-container {
   display: inline-flex;
-  width: 300px;
+  width: 350px;
   justify-content: space-between;
   align-items: center;
 }
