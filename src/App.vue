@@ -17,13 +17,14 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
+  <div class="noise fixed"></div>
    <Transition><RouterView v-if="show"/></Transition>
   
   <div class="nav-container">
     <nav class="navbar">
-      <RouterLink to="/" class="nav-link">(Home)</RouterLink>
-      <RouterLink to="/works" class="nav-link">(Works)</RouterLink>
-      <RouterLink to="/contact" class="nav-link">(Contact)</RouterLink>
+      <RouterLink to="/" class="nav-link">Home</RouterLink>
+      <RouterLink to="/works" class="nav-link">Works</RouterLink>
+      <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
     </nav>
   </div>
 </template>

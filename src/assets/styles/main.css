@@ -9,6 +9,32 @@ body {
   align-items: center;
 }
 
+
+
+.noise.fixed {
+  opacity: .2;
+  background-image: url(/public/assets/noise_texture.png);
+  background-repeat: repeat;
+  background-size: 150px;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.noise {
+  width: 100vw;
+  height: 100vh;
+  opacity: .56;
+  background-image: url(/public/assets/noise_texture.png);
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: 150px;
+  display: block;
+  position: absolute;
+}
+
 .app-md-portfolio {
   min-height: 500px;
 }
@@ -96,7 +122,7 @@ header {
   justify-content: center;
   padding: 1em .5em;
   border: 1px solid var(--color-border);
-  border-radius: 8px;
+  border-radius: 360px;
   z-index: 10;
 }
 
@@ -408,7 +434,7 @@ h2.client {
   .homeview {
     margin-top: -5em;
   }
-  .nav-container {
+  /* .nav-container {
     width: 100%;
     margin-bottom: 0;
     border: none;
@@ -416,7 +442,7 @@ h2.client {
     border-radius: 8px 8px 0 0;
     height: 200px;
     bottom: -135px;
-  }
+  } */
   .works {
     min-height: 100vh;
   }
