@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <h1 class="title"><span class="decorator">Want to</span> work together? </h1>
-    <a href="mailto:hello@mathieu-dubart.fr"> <h3 class="subtitle links"> Let's get in touch </h3> </a>
+    <a href="mailto:hello@mathieu-dubart.fr"> <h3 class="subtitle links"> Let's get in touch <i class='fa-solid fa-arrow-up-right-from-square'></i></h3> </a>
 
     <h2 class="title">You can also find me here! Don't be shy, come say hi!</h2>
     <div class="networks-container">

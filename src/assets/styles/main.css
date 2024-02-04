@@ -270,13 +270,28 @@ a.nav-link:active {
 
 .single-project {
   background-color: var(--color-background-soft);
-  padding: 1rem;
   border: 1px solid var(--color-border);
   max-width: 100%;
   margin: 0 1em 1em 0;
   width: calc(100% - 1em);
   border-radius: var(--border-radius-sm);
   transition: ease-in-out 1s;
+}
+.single-project a img {
+  width: 145px;
+  height: 145px;
+  object-fit:cover;
+  border-top-left-radius: var(--border-radius-sm);
+  border-bottom-left-radius: var(--border-radius-sm);
+}
+
+.single-project a {
+  display: flex;
+  flex-direction: row;
+}
+
+.single-project a .card-infos {
+  padding: 1rem;
 }
 
 .single-project:hover{

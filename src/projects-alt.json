@@ -2,6 +2,7 @@
   {
     "id": 0,
     "route":"/owl-radar",
+    "thumbnail":"/assets/projects/owl/owl-proto-sensors.jpg",
     "title": "<span class='decorator'>Owl</span>",
     "card_title": "Owl",
     "client": "School project",
@@ -22,6 +23,7 @@
   {
     "id": 1,
     "route":"/monsieur-bouillon",
+    "thumbnail":"/assets/projects/monsieur-bouillon/monsieur-bouillon-hero.png",
     "title": "<span class='decorator'>Monsieur</span> Bouillon",
     "card_title": "Monsieur Bouillon",
     "client": "Groupe Chevrier",
@@ -43,6 +45,7 @@
   {
     "id": 2,
     "route":"/patio-restaurant",
+    "thumbnail":"/assets/projects/patio-restaurant/patio-restaurant-hero.png",
     "title": "<span class='decorator'>Patio</span> Restaurant",
     "card_title": "Patio Restaurant",
     "client": "Groupe Chevrier",
@@ -64,6 +67,7 @@
   {
     "id": 4,
     "route":"/bucketlist",
+    "thumbnail":"/assets/projects/app-thumbnails/bucketlist-thumbnail.png",
     "title": "<span class='decorator'>Bucketlist</span>",
     "card_title": "Bucketlist",
     "client": "Myself",
@@ -79,6 +83,7 @@
   {
     "id": 5,
     "route":"/iexpense",
+    "thumbnail":"/assets/projects/app-thumbnails/iExpense-thumbnail.png",
     "title": "<span class='decorator'>iExpense</span>",
     "card_title": "iExpense",
     "client": "Myself",
@@ -94,6 +99,7 @@
   {
     "id": 6,
     "route":"/avalanches-annecy",
+    "thumbnail":"/assets/projects/avalanches-annecy/avalanches-header.jpeg",
     "title": "<span class='decorator'>Avalanches</span> website",
     "client": "Avalanches Annecy",
     "card_title": "Avalanches website",
@@ -114,6 +120,7 @@
   {
     "id": 7,
     "route":"/tasks-tracker",
+    "thumbnail":"/assets/projects/app-thumbnails/tasks-tracker-thumbnail.png",
     "title": "<span class='decorator'>Tasks</span> Tracker",
     "card_title": "Tasks Tracker",
     "client": "Myself",
@@ -129,6 +136,7 @@
   {
     "id": 8,
     "route":"/neufplate",
+    "thumbnail":"/assets/projects/app-thumbnails/neufplate-thumbnail.png",
     "title": "<span class='decorator'>Neufplate</span>",
     "card_title": "Neufplate",
     "client": "Myself",

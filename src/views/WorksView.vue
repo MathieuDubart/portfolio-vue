@@ -51,12 +51,15 @@
     </div>
 
 
-    <div class="works-container grid md:grid-cols-3 sm:grid-cols-1">
+    <div class="works-container grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
       <div v-for="project in filteredProjects" :key="project.id" class="single-project">
         <RouterLink :to="'/works'+project.route">
-          <h3 class="project-title" v-html="project.card_title"></h3>
-          <div class="project-tags"> <span v-for="tag in project.tags" class="single-tag light-grey">{{ tag }}</span> </div>
-          <div class="project-link links">See project</div>
+          <img :src="project.thumbnail" :alt="project.card_title + ' thumbnail'">
+          <div class="card-infos">
+            <h3 class="project-title" v-html="project.card_title"></h3>
+            <div class="project-tags"> <span v-for="tag in project.tags" class="single-tag light-grey">{{ tag }}</span> </div>
+            <div class="project-link links">See project</div>
+          </div>
         </RouterLink>
       </div>
     </div>
