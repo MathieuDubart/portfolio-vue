@@ -147,7 +147,7 @@ header {
   margin-bottom: 5.5em;
   width: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   padding: 1em 1em;
   border: 1px solid var(--color-border);
@@ -265,6 +265,7 @@ a.nav-link:active {
 }
 
 .single-project {
+  background-color: var(--color-background-soft);
   padding: 1rem;
   border: 1px solid var(--color-border);
   max-width: 100%;
@@ -272,7 +273,7 @@ a.nav-link:active {
   width: calc(100% - 1em);
   border-radius: var(--border-radius-sm);
   transition: ease-in-out 1s;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
 }
 
 .single-project:hover{
