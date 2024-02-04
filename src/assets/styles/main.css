@@ -417,14 +417,13 @@ h2.client {
 }
 
 @media (max-width: 760px) {
-
   .work-video {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .navbar-mobile-cta {
+  a.navbar-mobile-cta {
     display: flex;
   }
   .work-video iframe {
@@ -464,6 +463,10 @@ h2.client {
   }
   .homeview {
     margin-top: -7em;
+  }
+
+  a.navbar-mobile-cta {
+    display: flex;
   }
 
   .works {
