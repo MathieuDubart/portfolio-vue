@@ -27,8 +27,8 @@ a.navbar-mobile-cta {
   display: none;
   border: 3px solid var(--color-text);
   border-radius: 360px;
-  height: 42px;
-  width: 42px;
+  height: 38px;
+  width: 38px;
   justify-content: center;
   align-items: center;
 }
