@@ -72,10 +72,6 @@ h3 {
     place-items: flex-start;
     flex-wrap: wrap;
   }
-
-  nav {
-    margin-bottom: 3.5em;
-  }
   
   .about {
     min-height: 100vh;
