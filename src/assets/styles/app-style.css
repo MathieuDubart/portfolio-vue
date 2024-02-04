@@ -1,0 +1,81 @@
+/* nav a.router-link-exact-active {
+  color: var(--color-text);
+}
+
+nav a.router-link-exact-active:hover {
+  background-color: transparent;
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#portfolio-md {
+  padding: 2rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: normal;
+}
+
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0 1rem;
+  
+}
+
+nav a:first-of-type {
+  border: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    padding-right: calc(var(--section-gap) / 2);
+  }
+
+  .logo {
+    margin: 0 2rem 0 0;
+  }
+
+  header .wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
