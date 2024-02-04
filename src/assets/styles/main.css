@@ -27,8 +27,8 @@ body {
   display: none;
   border: 3px solid var(--vt-c-black);
   border-radius: 360px;
-  height: 35px;
-  width: 35px;
+  height: 38px;
+  width: 28px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +131,7 @@ header {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 1em .5em;
+  padding: 1em 1em;
   border: 1px solid var(--color-border);
   border-radius: 360px;
   z-index: 10;
