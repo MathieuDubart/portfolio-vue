@@ -424,7 +424,9 @@ h2.client {
     justify-content: center;
     align-items: center;
   }
-  
+  .navbar-mobile-cta {
+    display: flex;
+  }
   .work-video iframe {
     min-height: 750px;
     height: auto;
@@ -463,9 +465,7 @@ h2.client {
   .homeview {
     margin-top: -7em;
   }
-  .navbar-mobile-cta {
-    display: flex;
-  }
+
   .works {
     min-height: 100vh;
   }
