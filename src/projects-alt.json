@@ -5,7 +5,7 @@
     "title": "<span class='decorator'>Owl</span>",
     "card_title": "Owl",
     "client": "School project",
-    "cta_label": "Show GitHub repo",
+    "cta_label": "Show GitHub repo <i class='fa-solid fa-arrow-up-right-from-square'></i>",
     "href":"https://github.com/MathieuDubart/reversing_radar",
     "intro":"<span class='bold'> Owl </span> is a reversing radar. It's a <span class='bold'>school project revolving around disability</span>, specifically cerebro-injuries. <br/><br/> For this project, I worked with two designers: <a href='https://www.instagram.com/rever.dsgn/' target='_blank' class='bold small-links'>Baptiste SINHSATTANAK <i class='fa-solid fa-arrow-up-right-from-square'></i></a> and  <a href='https://www.linkedin.com/in/clarissegrely/' target='_blank' class='bold small-links'>Clarisse GRÉLY <i class='fa-solid fa-arrow-up-right-from-square'></i></a>. We had to build an object or a game <span class='bold'>to help people with disabilities</span> to socialize or to <span class='bold'>make their everyday life easier</span>. After a few interviews with people from an association, we noticed that for those in electric wheelchairs, it was often <span class='bold'>difficult to make half-turns or to go backward</span> without running into an obstacle, mainly because <span class='bold'>they couldn't turn their heads.</span>",
     "medias_type":"carousel",

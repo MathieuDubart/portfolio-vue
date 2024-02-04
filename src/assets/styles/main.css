@@ -16,11 +16,22 @@ body {
   background-image: url(/public/assets/noise_texture.png);
   background-repeat: repeat;
   background-size: 150px;
-  position: fixed;
   top: 0%;
   bottom: 0%;
   left: 0%;
   right: 0%;
+}
+
+.noise {
+  width: 100vw;
+  height: 100vh;
+  opacity: .56;
+  background-image: url(/public/assets/noise_texture.png);
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: 150px;
+  display: block;
+  position: absolute;
 }
 
 a.navbar-mobile-cta {
@@ -35,18 +46,6 @@ a.navbar-mobile-cta {
 
 a.navbar-mobile-cta i {
   color: var(--color-text)
-}
-
-.noise {
-  width: 100vw;
-  height: 100vh;
-  opacity: .56;
-  background-image: url(/public/assets/noise_texture.png);
-  background-position: 0 0;
-  background-repeat: repeat;
-  background-size: 150px;
-  display: block;
-  position: absolute;
 }
 
 .app-md-portfolio {
