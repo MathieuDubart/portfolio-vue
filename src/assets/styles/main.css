@@ -450,7 +450,13 @@ h2.client {
     height: auto;
     max-height: 1000px;
   }
-
+  .single-project a img {
+    width: 105px;
+    height: 130px;
+    object-fit:cover;
+    border-top-left-radius: var(--border-radius-sm);
+    border-bottom-left-radius: var(--border-radius-sm);
+  }
   .swiper {
     width: 100%;
     height: auto;
