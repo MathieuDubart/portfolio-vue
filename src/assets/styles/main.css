@@ -40,7 +40,7 @@ a.navbar-mobile-cta {
   border-radius: 360px;
   height: 38px;
   width: 38px;
-  margin-left: 16px;
+    margin-left: 16px;
   justify-content: center;
   align-items: center;
 }
@@ -154,7 +154,7 @@ header {
   align-items: center;
   justify-content: center;
   padding: 1em 1em;
-  border: 1px solid var(--color-text);
+  border: 1px solid var(--color-border);
   border-radius: 360px;
   z-index: 10;
 }
