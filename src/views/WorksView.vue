@@ -1,5 +1,5 @@
 <script>
-  import projectsData from "../projects-free.json"
+  import projectsData from "../projects-alt.json"
 
   export default {
   data() {
