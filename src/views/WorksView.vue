@@ -56,7 +56,7 @@
         <RouterLink :to="'/works'+project.route">
           <h3 class="project-title" v-html="project.card_title"></h3>
           <div class="project-tags"> <span v-for="tag in project.tags" class="single-tag light-grey">{{ tag }}</span> </div>
-          <div class="project-link links">(See project)</div>
+          <div class="project-link links">See project</div>
         </RouterLink>
       </div>
     </div>

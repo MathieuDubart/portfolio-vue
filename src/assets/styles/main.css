@@ -95,10 +95,25 @@ span.gradient {
 }
 .project-tags h3.subtitle {
   width: fit-content;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
-.links::after {
+a, .project-link {
+  width: auto;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 32px;
+  border: 2px solid var(--color-text);
+  border-radius: 360px;
+  padding: .5em 1em;
+}
+
+.small-links::after {
   content: '';
   position: absolute;
   min-width: 38px;
@@ -111,7 +126,7 @@ span.gradient {
   transition: transform 0.25s ease-out;
 }
 
-.links:hover::after {
+.small-links:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -276,7 +291,7 @@ a.nav-link:active {
 }
 
 .project-tags {
-  margin-bottom:.5em;
+  margin-bottom: 1em;
 }
 
 h2.client {

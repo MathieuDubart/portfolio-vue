@@ -24,7 +24,7 @@
 
     <h1 class="title"><span class="decorator">Developer</span> <span class="gradient">&</span> SwiftUI enthusiast.</h1>
     <div class="container-get-in-touch">
-      <RouterLink to="/works" class="discover-work links"><h3 class="subtitle">(Discover my work)</h3></RouterLink>
+      <RouterLink to="/works" class="discover-work links"><h3 class="subtitle">Discover my work</h3></RouterLink>
     </div>
 
   </div>
