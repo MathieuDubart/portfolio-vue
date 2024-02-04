@@ -111,6 +111,10 @@ a, .project-link {
   padding: .5em 1em;
 }
 
+.links i, .small-link i {
+  margin-left: 8px;
+}
+
 .small-links::after {
   content: '';
   position: absolute;

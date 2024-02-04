@@ -1,6 +1,6 @@
 <script>
   import { computed, isProxy, onMounted, toRaw } from "vue";
-  import projectsData from "../projects-alt.json"
+  import projectsData from "../projects-free.json"
 
   import { Swiper, SwiperSlide } from 'swiper/vue';
   import { Navigation, Pagination, Autoplay} from 'swiper';
