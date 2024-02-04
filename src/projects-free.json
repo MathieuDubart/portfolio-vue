@@ -2,6 +2,7 @@
   {
     "id": 1,
     "route":"/monsieur-bouillon",
+    "thumbnail":"/assets/projects/monsieur-bouillon/monsieur-bouillon-hero.png",
     "card_title": "Monsieur Bouillon",
     "title": "<span class='decorator'>Monsieur</span> Bouillon",
     "client": "Groupe Chevrier",
@@ -23,6 +24,7 @@
   {
     "id": 2,
     "route":"/patio-restaurant",
+    "thumbnail":"/assets/projects/patio-restaurant/patio-restaurant-hero.png",
     "card_title": "Patio Restaurant",
     "title": "<span class='decorator'>Patio</span> Restaurant",
     "client": "Groupe Chevrier",
@@ -44,6 +46,7 @@
   {
     "id": 3,
     "route":"/avalanches-annecy",
+    "thumbnail":"/assets/projects/avalanches-annecy/avalanches-header.jpeg",
     "card_title": "Avalanches website",
     "title": "<span class='decorator'>Avalanches</span> website",
     "client": "Avalanches Annecy",
@@ -64,8 +67,9 @@
   {
     "id": 4,
     "route":"/avalanches-photoshoot",
-    "card_title": "Avalanches photoshoot",
-    "title": "<span class='decorator'>Avalanches</span> photoshoot",
+    "thumbnail":"/assets/projects/avalanches-photoshoot/avalanches-1.jpeg",
+    "card_title": "Avalanches shooting",
+    "title": "<span class='decorator'>Avalanches</span> shooting",
     "client": "Avalanches Annecy",
     "cta_label": "Show on instagram <i class='fa-solid fa-arrow-up-right-from-square'></i>", 
     "href":"https://www.instagram.com/mathieudbrt/",
@@ -85,6 +89,7 @@
   {
     "id": 5,
     "route":"/brique-argent",
+    "thumbnail":"/assets/projects/brique-argent/grandes/IMG_6606.jpeg",
     "card_title": "Brique Argent",
     "title": "<span class='decorator'>Brique</span> Argent",
     "client": "Myself",
@@ -111,6 +116,7 @@
   {
     "id": 5,
     "route":"/portraits",
+    "thumbnail":"/assets/projects/portraits/portrait-01.jpeg",
     "card_title": "Portraits",
     "title": "<span class='decorator'>Portraits</span>",
     "client": "Myself",
@@ -134,6 +140,7 @@
   {
     "id": 6,
     "route":"/morganellisa",
+    "thumbnail":"/assets/projects/morganellisa/morganellisa_9.jpeg",
     "card_title": "@morganellisa",
     "title": "<span class='decorator'>@morganellisa</span>",
     "client": "Myself",
