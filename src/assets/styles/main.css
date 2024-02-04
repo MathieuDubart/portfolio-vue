@@ -40,6 +40,7 @@ a.navbar-mobile-cta {
   border-radius: 360px;
   height: 38px;
   width: 38px;
+  margin-left: 16px;
   justify-content: center;
   align-items: center;
 }

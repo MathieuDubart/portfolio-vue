@@ -47,7 +47,7 @@
 
 <template>
   <div class="header-container">
-    <RouterLink :to="'/works'"><h4 style="margin-bottom: .8em;"><i class="fa-solid fa-arrow-left" style="margin-right: 8px;"></i> Back</h4></RouterLink>
+    <RouterLink :to="'/works'"><h4 style="margin-bottom: .8em;"><i class="fa-solid fa-arrow-left-long" style="margin-right: 8px;"></i> Back</h4></RouterLink>
     <h1 class="title" v-html="currentProject.title"></h1>
     <h2 class="client"> <span class="for-subtitle">for</span> {{ currentProject.client }}</h2>
     <div class="project-tags"><h3 class="subtitle"><span v-for="techno in currentProject.technos" class="single-tag light-grey">{{ techno }}</span></h3></div>
