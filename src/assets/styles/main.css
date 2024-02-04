@@ -25,7 +25,7 @@ body {
 
 .navbar-mobile-cta {
   display: none;
-  border: 3px solid var(--vt-c-black);
+  border: 3px solid var(--color-text);
   border-radius: 360px;
   height: 38px;
   width: 28px;
@@ -35,7 +35,7 @@ body {
 }
 
 .navbar-mobile-cta i {
-  color: var(--vt-c-black)
+  color: var(--color-text)
 }
 
 .noise {
