@@ -7,7 +7,7 @@
     <div class="networks-container">
       <a href="https://github.com/mathieudubart" target="_blank" class="links no-margin rounded-link"> <i class="fa-brands fa-github fa-xl"></i> </a>
       <a href="https://www.linkedin.com/in/mathieu-dubart" target="_blank" class="links no-margin rounded-link"> <i class="fa-brands fa-linkedin fa-xl"></i> </a>
-      <a href="https://www.instagram.com/mathieudbrt" target="_blank" class="links no-margin rounded-link"> <i class="fa-brands fa-instagram fa-xl"></i> </a>
+      <a href="https://www.threads.net/@mathieudbrt" target="_blank" class="links no-margin rounded-link"> <i class="fa-brands fa-threads fa-xl"></i> </a>
     </div>
   </div>
 </template>
