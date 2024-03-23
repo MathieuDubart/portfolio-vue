@@ -1,70 +1,5 @@
 [
   {
-    "id": 1,
-    "route":"/monsieur-bouillon",
-    "thumbnail":"/assets/projects/monsieur-bouillon/monsieur-bouillon-hero.png",
-    "card_title": "Monsieur Bouillon",
-    "title": "<span class='decorator'>Monsieur</span> Bouillon",
-    "client": "Groupe Chevrier",
-    "cta_label": "See it live <i class='fa-solid fa-arrow-up-right-from-square'></i>",
-    "href":"https://monsieurbouillon.ch/fr/",
-    "intro":" <span class='bold'> Monsieur Bouillon </span>  website was created for the <span class='bold'>Chevrier Group</span>, a group of restaurants <span class='bold'>owned by Swiss chef Philippe Chevrier</span>. The site includes weekly menus and the restaurant's various menus. There's also a page for reserving a table directly online.",
-    "medias_type":"carousel",
-    "images":[
-      "/assets/projects/monsieur-bouillon/monsieur-bouillon-hero.png",
-      "/assets/projects/monsieur-bouillon/chef-simone.png",
-      "/assets/projects/monsieur-bouillon/menu-monsieur-bouillon.png",
-      "/assets/projects/monsieur-bouillon/plats-monsieur-bouillon.png",
-      "/assets/projects/monsieur-bouillon/reservation-monsieur-bouillon.png"
-    ],
-    "video":"",
-    "tags":["Web development"],
-    "technos":["SCSS","JS","PHP","WORDPRESS", "BOOTSTRAP"]
-  },
-  {
-    "id": 2,
-    "route":"/patio-restaurant",
-    "thumbnail":"/assets/projects/patio-restaurant/patio-restaurant-hero.png",
-    "card_title": "Patio Restaurant",
-    "title": "<span class='decorator'>Patio</span> Restaurant",
-    "client": "Groupe Chevrier",
-    "cta_label": "See it live <i class='fa-solid fa-arrow-up-right-from-square'></i>",
-    "href":"https://lepatio-restaurant.ch/fr/",
-    "intro":"Like Monsieur Bouillon, the <span class='bold'>Patio Restaurant</span> website was made for one of <span class='bold'>chef Philippe Chevrier's establishments</span>. The site also features the restaurant's menu, as well as a page allowing you to book a private room.",
-    "medias_type":"carousel",
-    "images":[
-      "/assets/projects/patio-restaurant/patio-restaurant-hero.png",
-      "/assets/projects/patio-restaurant/patio-restaurant-cartes.png",
-      "/assets/projects/patio-restaurant/patio-restaurant-events.png", 
-      "/assets/projects/patio-restaurant/patio-private.png",
-      "/assets/projects/patio-restaurant/patio-footer.png"
-    ],
-    "video":"",
-    "tags":["Web development"],
-    "technos":["SCSS","JS","PHP","WORDPRESS", "BOOTSTRAP"]
-  },
-  {
-    "id": 3,
-    "route":"/avalanches-annecy",
-    "thumbnail":"/assets/projects/avalanches-annecy/avalanches-header.jpeg",
-    "card_title": "Avalanches website",
-    "title": "<span class='decorator'>Avalanches</span> website",
-    "client": "Avalanches Annecy",
-    "cta_label": "See it live <i class='fa-solid fa-arrow-up-right-from-square'></i>", 
-    "href":"https://avalanches-annecy.fr/",
-    "intro":"<span class='bold'>Les Avalanches </span> is a football team located in Annecy. After my first internship, I was looking for a new one. With this in mind, I contacted the local football team to bring some freshness to their website. This also led to a photoshoot with this same team during football games.",
-    "medias_type":"carousel",
-    "images":[
-      "/assets/projects/avalanches-annecy/avalanches-old-website.png",
-      "/assets/projects/avalanches-annecy/avalanches-header.jpeg",
-      "/assets/projects/avalanches-annecy/avalanches-matchs.png",
-      "/assets/projects/avalanches-annecy/avalanches-contact.png"
-    ],
-    "video":"",
-    "tags":["Web development", "Web design"],
-    "technos":["FIGMA", "WORDPRESS", "SCSS", "PHP", "BOOTSTRAP"]
-  },
-  {
     "id": 4,
     "route":"/avalanches-photoshoot",
     "thumbnail":"/assets/projects/avalanches-photoshoot/avalanches-1.jpeg",
@@ -83,7 +18,7 @@
       "/assets/projects/avalanches-photoshoot/avalanches-5.jpeg",
       "/assets/projects/avalanches-photoshoot/avalanches-6.jpg"],
     "video":"",
-    "tags":["Photography"],
+    "tags":["Sport", "Football"],
     "technos":["Nikon D750", "200-500mm", "Lightroom"]
   },
   {
@@ -103,7 +38,7 @@
       "/assets/projects/brique-argent/grandes/IMG_6597.jpeg"
     ],
     "video":"",
-    "tags":["Photography"],
+    "tags":["Concert"],
     "technos":["iPhone", "Lightroom"]
   },
   {
@@ -127,7 +62,7 @@
       "/assets/projects/portraits/portrait-07.jpeg"
     ],
     "video":"",
-    "tags":["Photography"],
+    "tags":["Portrait"],
     "technos":["Canon EOS5D Mark II", "iPhone", "Lightroom"]
   },
   {
@@ -154,7 +89,26 @@
       "/assets/projects/morganellisa/morganellisa_10.jpeg"
     ],
     "video":"",
-    "tags":["Photography"],
+    "tags":["Portrait"],
     "technos":["Canon EOS5D Mark II", "Lightroom"]
+  },
+  {
+    "id": 7,
+    "route":"/the-man-of-the-lake",
+    "thumbnail":"/assets/projects/morganellisa/morganellisa_9.jpeg",
+    "card_title": "The Man of the lake",
+    "title": "<span class='decorator'>The Man of the lake</span>",
+    "client": "Myself",
+    "cta_label": "Show on instagram <i class='fa-solid fa-arrow-up-right-from-square'></i>", 
+    "href":"https://www.instagram.com/mathieudbrt/",
+    "intro":"",
+    "medias_type":"carousel",
+    "images":[
+      "/assets/projects/morganellisa/morganellisa_1.jpeg",
+
+    ],
+    "video":"",
+    "tags":["Portrait"],
+    "technos":["Fujifilm X-H2", "XF 18-120mm f/4","Lightroom"]
   }
 ]
