@@ -98,10 +98,10 @@
     "thumbnail":"/assets/projects/the-man-of-the-lake/DSCF1282.jpeg",
     "card_title": "The Man of the lake",
     "title": "<span class='decorator'>The Man of the lake</span>",
-    "client": "Myself",
+    "client": "Valentin Gassend",
     "cta_label": "Show on instagram <i class='fa-solid fa-arrow-up-right-from-square'></i>", 
     "href":"https://www.instagram.com/mathieudbrt/",
-    "intro":"",
+    "intro":"Made for <a href='https://www.instagram.com/levavalou' target='_blank' class='small-links'><span class='bold'>Valentin Gassend's Instagram <i class='fa-solid fa-arrow-up-right-from-square'></i></span></a> in Annecy.",
     "medias_type":"carousel",
     "images":[
       "/assets/projects/the-man-of-the-lake/DSCF1282.jpeg",
