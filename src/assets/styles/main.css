@@ -9,8 +9,6 @@ body {
   align-items: center;
 }
 
-
-
 .noise.fixed {
   opacity: .2;
   background-image: url(/assets/noise_texture.png);
@@ -141,6 +139,15 @@ a, .project-link {
 .small-links:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.no-margin i, .no-margin {
+  margin: 0;
+}
+
+.rounded-link {
+  height: 44px;
+  width: 44px;
 }
 
 header {
@@ -354,7 +361,7 @@ h2.client {
 
 .networks-container {
   display: inline-flex;
-  width: 350px;
+  min-width: 160px;
   justify-content: space-between;
   align-items: center;
 }
@@ -495,6 +502,10 @@ h2.client {
     overflow: hidden;
     justify-content: flex-start;
   }
+  .introduction svg.home-logo {
+    margin-bottom: 7rem;
+  }
+  
   .homeview {
     margin-top: -7em;
   }
